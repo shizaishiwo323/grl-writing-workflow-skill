@@ -12,7 +12,7 @@ Use three kinds of text:
 
 ## Test Order
 
-Follow the priority in `临时.md`:
+Follow the priority defined in `SKILL.md`, `references/stage_model.md`, and `references/skill_hierarchy_map.md`:
 
 1. Test `workflow_router_prompt.md` on one Introduction paragraph, one Methods paragraph, and one Results paragraph.
 2. Test `mechanism_results_prompt.md` on one Results paragraph that originally described spectra or tortuosity.

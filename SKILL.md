@@ -22,9 +22,15 @@ Do not perform sentence polishing when the central story, section function, or m
 
 Unless the user explicitly asks for one narrow operation, begin with `references/workflow_router.md` and, when prompt wording is needed, `references/workflow_router_prompt.md`.
 
+Use two labels during diagnosis:
+
+- Manuscript maturity stage: one of the five stages in `references/stage_model.md`.
+- Actionable routing label: the next writing problem to solve, such as `Storyline`, `OCAR`, `Methods Evidence`, `Mechanism Results`, `Paragraph`, or `Sentence`.
+
 Diagnose:
 
 - Current manuscript stage.
+- Next actionable writing problem.
 - Core contradiction: storyline, section structure, mechanism chain, paragraph flow, sentence hierarchy, or reviewer risk.
 - Which sub-skill files to use.
 - Which edits are currently forbidden.
@@ -88,12 +94,15 @@ Prompt and test materials:
 - `references/skill_specific_checklists.md`: sub-skill-specific checks.
 - `references/small_scale_testing_plan.md`: testing protocol for prompt behavior.
 
+Execution priority: when revising or generating an answer, load the relevant `*_prompt.md` file first, then use the corresponding design `.md` file as supporting rationale. For example, use `references/mechanism_results_prompt.md` before `references/mechanism_results.md`.
+
 ## Output Contract
 
 For diagnosis tasks, output:
 
 ```text
-Current stage:
+Manuscript maturity stage:
+Actionable routing label:
 Core contradiction:
 Recommended sub-skills:
 Currently forbidden:

@@ -6,7 +6,7 @@ This phase turns the Phase 3 skill architecture into AI-executable prompt templa
 
 ## Priority Order
 
-Follow the order suggested in `临时.md`:
+Follow the priority defined in `SKILL.md`, `references/stage_model.md`, and `references/skill_hierarchy_map.md`:
 
 1. `workflow_router`
 2. `mechanism_results`

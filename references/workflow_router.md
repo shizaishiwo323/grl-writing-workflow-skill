@@ -12,12 +12,17 @@ Diagnose the manuscript's current editing stage before choosing any writing skil
 
 ## Output
 
-- Manuscript stage diagnosis: `Storyline`, `OCAR`, `Methods Evidence`, `Mechanism Results`, `Paragraph`, or `Sentence`.
+- Manuscript maturity stage: one of the five stages defined in `stage_model.md`.
+- Actionable routing label: `Storyline`, `OCAR`, `Methods Evidence`, `Mechanism Results`, `Paragraph`, or `Sentence`.
 - Primary skill to call next.
 - Secondary skill if needed.
 - One-sentence reason for routing.
 - What not to do yet.
 - Do not rewrite prose unless explicitly asked after routing.
+
+## Terminology
+
+The five-stage model describes manuscript maturity. Router labels describe the next actionable writing problem. For example, a draft may be in `Stage 3: Mechanism Construction` while the immediate routing label is `Mechanism Results` or `Paragraph`.
 
 ## When to Call / When Not to Call
 
@@ -56,7 +61,8 @@ Use this order:
 Do not rewrite. Produce routing only:
 
 ```text
-Stage:
+Manuscript maturity stage:
+Actionable routing label:
 Primary skill:
 Secondary skill:
 Reason:
