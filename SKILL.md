@@ -1,6 +1,7 @@
 ---
 name: grl-writing-workflow
-description: Use when the user wants Codex to diagnose, plan, revise, or build prompts for GRL-style scientific manuscripts, especially mechanism-driven geoscience, reactive transport, porous media, hydrogeophysics, or NMR papers. Applies teacher-derived OCAR/funnel structure, storyline alignment, methods evidence-chain, mechanism-centered results, paragraph engineering, sentence hierarchy, revision-case mining, and prompt-building rules. Always diagnose manuscript stage before polishing sentences.
+description: >-
+  Use for GRL-style scientific manuscript diagnosis and revision: workflow routing, OCAR/funnel structure, mechanism-centered results, methods evidence-chain, paragraph engineering, and sentence hierarchy. Trigger on requests like "看逻辑", "润色论文", "改Introduction", "改Results", "GRL风格", or mechanism-driven geoscience writing. Always diagnose manuscript stage before polishing sentences.
 ---
 
 # GRL Writing Workflow
