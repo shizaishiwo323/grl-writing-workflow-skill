@@ -58,9 +58,9 @@ Principles and evidence:
 - `references/principles.md`: teacher-derived principle library, evidence strength, and transferable rules.
 - `references/tag_frequency.md`: which principles are most frequent in the modification database.
 - `references/tag_system.md`: modification label system.
+- `references/raw_modification_log.md`: original revision pairs in Markdown form.
+- `references/interpretation_principle_log.md`: interpreted revision principles.
 - `references/modification_summary.md`: compact summary of mined changes.
-
-Public note: raw sentence-level revision pairs are intentionally not bundled in this public release, because they may contain unpublished manuscript text. Use the private local skill copy when exact teacher-revision cases are needed.
 
 Sub-skill designs:
 
@@ -109,7 +109,7 @@ For revision tasks, keep the output tied to the diagnosed stage:
 - Paragraph work: state paragraph function, reorder sentences, then revise.
 - Sentence work: polish only after confirming the higher-level logic is stable.
 
-When using revision evidence, cite the relevant tag, principle, or private Case ID if the user provides the private modification logs.
+When using revision evidence, cite the relevant Case ID or tag from the Markdown modification logs if available.
 
 ## Guardrails
 
