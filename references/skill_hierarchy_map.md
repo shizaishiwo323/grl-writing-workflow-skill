@@ -1,6 +1,6 @@
 # Skill Hierarchy Map
 
-Source principles: `../02_principle_extraction/principles.md`
+Source principles: `principles.md`
 
 This is the Phase 3 skill architecture. It translates the principle library into modular, AI-callable writing skills, but it does not yet provide final prompt templates. Prompt engineering belongs to Phase 4.
 

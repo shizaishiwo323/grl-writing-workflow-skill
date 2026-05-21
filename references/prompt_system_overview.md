@@ -1,6 +1,6 @@
 # Phase 4 Prompt Building Overview
 
-Source architecture: `../03_skill_design/`
+Source architecture: `references/skill_hierarchy_map.md` and the corresponding sub-skill design files in `references/`.
 
 This phase turns the Phase 3 skill architecture into AI-executable prompt templates. It does not add new skills. The goal is to make each existing skill callable, testable, and evaluable.
 
