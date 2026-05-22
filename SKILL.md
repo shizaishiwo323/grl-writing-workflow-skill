@@ -70,6 +70,7 @@ Sub-skill designs:
 - `references/story_architect.md`: storyline, novelty, protagonist, supporting actors.
 - `references/cases_story_architect.md`: reference-paper examples for Core Story, Central Scientific Question, main character, supporting actors, section storyline, and figure sequence logic.
 - `references/ocar_funnel.md`: Opening, Challenge, Action, Resolution at manuscript, section, and paragraph levels.
+- `references/cases_ocar_funnel.md`: reference-paper and manuscript examples for Abstract, Introduction, Methods opening, and Results opening OCAR funnels.
 - `references/narrative_echo_and_payoff.md`: paper-level and Results-level promise-payoff relationships, including Introduction-Results alignment and subsection-to-subsection echo within Results and Discussion.
 - `references/cases_narrative_echo_and_payoff.md`: manuscript-derived examples for Introduction payoff, forward pointers, backward links, and thread summaries.
 - `references/methods_evidence_chain.md`: methods as evidence logic, not technical display.

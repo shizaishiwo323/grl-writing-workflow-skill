@@ -34,6 +34,9 @@ Abstract / Introduction / Methods opening / Results opening / Paragraph
 ### Tags
 tag_1; tag_2; tag_3
 
+### OCAR Pattern Type
+single funnel / nested funnel / metric-building funnel / method-necessity funnel / results-orientation funnel
+
 ### Central Storyline
 One sentence describing the paper-level story.
 
@@ -59,6 +62,9 @@ Function:
 
 ### Why This OCAR Works
 
+### Failure It Prevents
+What weak writing pattern does this OCAR structure avoid?
+
 ### Transferable Rule
 
 ### AI Instruction
@@ -69,11 +75,17 @@ Function:
 ### Source
 Tracking Spatiotemporal Mineral Dissolution Through Quantitative Nuclear Magnetic Resonance Signatures / current manuscript / Abstract.
 
+### Source Location
+Abstract, sentences 1-7.
+
 ### Target Section
 Abstract.
 
 ### Tags
 process_first_opening; method_necessity; resolution_as_takeaway; diagnostic_signature
+
+### OCAR Pattern Type
+single funnel
 
 ### Central Storyline
 Time-resolved NMR T2 evolution can diagnose dissolution regimes by tracking matrix-vug coupling and permeability breakthrough.
@@ -109,6 +121,9 @@ Closes by stating what the reader can diagnose from the signal.
 ### Why This OCAR Works
 The abstract does not stop at "we simulated dissolution and NMR." It makes the NMR signal useful by connecting it to coupling sequence and hydraulic breakthrough.
 
+### Failure It Prevents
+Prevents the abstract from becoming a method-and-result list without a reader-facing diagnostic takeaway.
+
 ### Transferable Rule
 In a mechanism-driven abstract, make the result resolve the monitoring or interpretation problem introduced in the first two sentences.
 
@@ -120,11 +135,17 @@ When revising an abstract, check whether the final sentence answers the Challeng
 ### Source
 Tracking Spatiotemporal Mineral Dissolution Through Quantitative Nuclear Magnetic Resonance Signatures / current manuscript / Introduction.
 
+### Source Location
+Introduction: dissolution regimes and application stakes -> image/flow-field diagnosis limitation -> NMR interpretability limitation -> RTM-NMR-MVC action.
+
 ### Target Section
 Introduction.
 
 ### Tags
 process_first_opening; nested_funnel; generic_gap_to_process_gap; action_not_method_list
+
+### OCAR Pattern Type
+nested funnel
 
 ### Central Storyline
 NMR can become a process-based diagnostic for dissolution regimes only if T2 evolution is linked to pore coupling and breakthrough timing.
@@ -160,6 +181,9 @@ Turns the contribution into an interpretive capability, not only a modeling work
 ### Why This OCAR Works
 The funnel uses two layers of narrowing: dissolution-regime diagnosis first, then NMR-specific interpretability. This makes MVC feel necessary before it appears in Results.
 
+### Failure It Prevents
+Prevents the Introduction from becoming a literature review that jumps from dissolution regimes to an unexplained method.
+
 ### Transferable Rule
 If a method is already familiar, introduce its limitation after its potential: "the method can observe X, but current interpretation cannot explain Y."
 
@@ -171,11 +195,17 @@ When diagnosing an Introduction, look for both the field-level gap and the metho
 ### Source
 Tracking Spatiotemporal Mineral Dissolution Through Quantitative Nuclear Magnetic Resonance Signatures / current manuscript / Methods opening.
 
+### Source Location
+Methods opening paragraph before the reactive-transport and NMR subsections.
+
 ### Target Section
 Methods opening.
 
 ### Tags
 method_necessity; action_not_method_list; structure_signal_link
+
+### OCAR Pattern Type
+method-necessity funnel
 
 ### Central Storyline
 The workflow must keep dissolution geometry and NMR observables synchronized so that signal changes can be interpreted as structure changes.
@@ -211,6 +241,9 @@ States why the workflow can answer the paper's central interpretation question.
 ### Why This OCAR Works
 The opening tells readers what the workflow proves before technical equations arrive.
 
+### Failure It Prevents
+Prevents the Methods from becoming a technical catalog before readers know the evidence link.
+
 ### Transferable Rule
 A Methods opening should first name the evidence link the methods create, then introduce modules and parameters.
 
@@ -222,11 +255,17 @@ When a Methods section feels technical too early, add a one-paragraph OCAR openi
 ### Source
 Tracking Spatiotemporal Mineral Dissolution Through Quantitative Nuclear Magnetic Resonance Signatures / current manuscript / Results and Discussion opening.
 
+### Source Location
+Results and Discussion opening paragraph before Section 3.1.
+
 ### Target Section
 Results opening.
 
 ### Tags
 section_level_funnel; reader_orientation; action_not_method_list
+
+### OCAR Pattern Type
+results-orientation funnel
 
 ### Central Storyline
 Representative dissolution regimes provide the structural basis for interpreting NMR T2 signatures and breakthrough efficiency.
@@ -262,6 +301,9 @@ Prepares a forward pointer to the next Results subsections.
 ### Why This OCAR Works
 The opening tells readers why three cases are enough and what they will explain downstream.
 
+### Failure It Prevents
+Prevents the Results from becoming a parameter-sweep inventory before the mechanism comparison is clear.
+
 ### Transferable Rule
 At the start of Results, do not only announce the dataset. State how the selected cases will function in the mechanism argument.
 
@@ -278,6 +320,9 @@ Abstract.
 
 ### Tags
 generic_gap_to_process_gap; mechanism_resolution; reader_usable_resolution
+
+### OCAR Pattern Type
+single funnel
 
 ### Central Storyline
 Archie's porosity exponent can be physically explained by pore-scale controls on the local electrical field in granular media.
@@ -313,6 +358,9 @@ Provides a mechanistic explanation rather than only a fitted correlation.
 ### Why This OCAR Works
 The abstract connects a practical empirical parameter to a specific pore-scale mechanism.
 
+### Failure It Prevents
+Prevents an empirical-parameter paper from reporting fitted trends without explaining the physical control.
+
 ### Transferable Rule
 For papers about empirical indices, make the Challenge about missing physical meaning and make the Resolution name the controlling mechanism.
 
@@ -329,6 +377,9 @@ Introduction.
 
 ### Tags
 field_background_opening; generic_gap_to_process_gap; mechanism_resolution
+
+### OCAR Pattern Type
+single funnel
 
 ### Central Storyline
 A pore-scale numerical study can reconcile conflicting controls on Archie's exponent by separating dilute and nondilute granular behavior.
@@ -364,6 +415,9 @@ Signals that the paper will explain why previous controls appear inconsistent.
 ### Why This OCAR Works
 The Introduction first establishes why the empirical parameter matters, then narrows to the unresolved physical control.
 
+### Failure It Prevents
+Prevents the literature review from remaining a list of candidate controls without a single unresolved relation.
+
 ### Transferable Rule
 When the literature lists many candidate controls, convert the list into a single unresolved relation among those controls.
 
@@ -380,6 +434,9 @@ Abstract.
 
 ### Tags
 process_first_opening; generic_gap_to_process_gap; method_necessity; temporal_resolution
+
+### OCAR Pattern Type
+metric-building funnel
 
 ### Central Storyline
 A spatial flow focusing profile can quantify dissolution regimes and distinguish patterns that visual classification cannot reliably separate.
@@ -415,6 +472,9 @@ Shows the reader what the new metric can diagnose.
 ### Why This OCAR Works
 The Abstract makes the metric necessary by first showing why final morphology alone is insufficient.
 
+### Failure It Prevents
+Prevents the new metric from appearing as an arbitrary descriptor rather than a solution to a classification failure.
+
 ### Transferable Rule
 When proposing a metric, explain what existing observation cannot separate and why the metric's structure matches the process.
 
@@ -431,6 +491,9 @@ Introduction.
 
 ### Tags
 process_first_opening; application_to_process_shift; nested_funnel; method_necessity
+
+### OCAR Pattern Type
+metric-building funnel
 
 ### Central Storyline
 Dissolution regimes require a quantitative, spatial, and temporal metric because channeling and wormholing can look similar in final structure but differ in evolution.
@@ -466,6 +529,9 @@ Makes the contribution a diagnostic capacity, not just a new descriptor.
 ### Why This OCAR Works
 The final Action paragraph explicitly rejects an insufficient metric type before defining the new one.
 
+### Failure It Prevents
+Prevents the Introduction from proposing a metric before readers understand why visual or global classification fails.
+
 ### Transferable Rule
 A strong metric paper often says: "A single number is not enough because the system has different regions with different functions."
 
@@ -482,6 +548,9 @@ Abstract.
 
 ### Tags
 process_first_opening; mechanism_resolution; broad_to_specific
+
+### OCAR Pattern Type
+single funnel
 
 ### Central Storyline
 Dissolution regimes can switch solute transport between Fickian and non-Fickian behavior by reorganizing flow heterogeneity.
@@ -517,6 +586,9 @@ Provides a two-sided mechanism that is easy for the reader to remember.
 ### Why This OCAR Works
 The result is expressed as a regime-dependent mechanism pair, not as a loose set of observations.
 
+### Failure It Prevents
+Prevents a regime-comparison abstract from becoming a parallel list of observations without a mechanism contrast.
+
 ### Transferable Rule
 When comparing regimes, state the contrast as paired mechanisms: regime A does X because Y; regime B does the opposite because Z.
 
@@ -533,6 +605,9 @@ Introduction.
 
 ### Tags
 process_first_opening; nested_funnel; generic_gap_to_process_gap; mechanism_resolution
+
+### OCAR Pattern Type
+nested funnel
 
 ### Central Storyline
 Solute transport in evolving porous media depends on how dissolution regimes alter heterogeneity and velocity structure.
@@ -568,6 +643,9 @@ Returns to transport prediction rather than stopping at dissolution morphology.
 ### Why This OCAR Works
 The Introduction shifts the reader from "dissolution changes pores" to "evolving pores change transport regime."
 
+### Failure It Prevents
+Prevents the paper from treating dissolution morphology and solute transport as two adjacent topics rather than one coupled problem.
+
 ### Transferable Rule
 A good nested funnel can move from a known process, to a known theory, to the unresolved case where the process changes the theory's assumptions.
 
@@ -584,6 +662,9 @@ Abstract.
 
 ### Tags
 process_first_opening; method_necessity; nested_funnel; resolution_as_takeaway
+
+### OCAR Pattern Type
+method-extension funnel
 
 ### Central Storyline
 NMR simulation and measurement can track how decreasing saturation weakens pore coupling by making water pathways tortuous and disconnected.
@@ -619,6 +700,9 @@ Turns the NMR framework into a physical interpretation of connectivity loss.
 ### Why This OCAR Works
 The abstract introduces NMR after the target process, so the method serves the mechanism rather than replacing it.
 
+### Failure It Prevents
+Prevents a method-extension abstract from saying only that NMR was applied to a new condition.
+
 ### Transferable Rule
 When a paper extends a method to a harder state, state what changes in that state make interpretation difficult.
 
@@ -635,6 +719,9 @@ Introduction.
 
 ### Tags
 process_first_opening; nested_funnel; method_necessity; reader_usable_resolution
+
+### OCAR Pattern Type
+method-extension funnel
 
 ### Central Storyline
 Unsaturated pore coupling can be interpreted from NMR only by linking relaxation responses to water-pathway connectivity.
@@ -670,6 +757,9 @@ Closes by giving a mechanism that can guide NMR characterization of unsaturated 
 ### Why This OCAR Works
 The Introduction makes the study's multi-method design feel necessary because each method resolves a different part of the funnel.
 
+### Failure It Prevents
+Prevents a multi-method Introduction from becoming a tool list instead of an evidence chain.
+
 ### Transferable Rule
 For multi-method papers, avoid a method list by mapping each method to one missing link in the mechanism.
 
@@ -678,13 +768,24 @@ When revising an Action paragraph with several tools, rewrite it as a sequence o
 
 ## Cross-Case Transferable Rules
 
+### Opening Rules
+
 - Start with a physical process and consequence before listing applications.
+- If a method is promising but insufficient, state both parts explicitly.
+
+### Challenge Rules
+
 - Convert "many studies have shown..." into "these studies still cannot explain or diagnose this process link."
 - Use nested funnels when the field-level problem and method-level limitation are both important.
 - Introduce a new metric only after explaining why existing visual, global, or bulk descriptors fail.
+
+### Action Rules
+
 - For Methods openings, state the evidence link created by the workflow before giving equations and parameters.
 - For Results openings, explain why selected cases are mechanistically representative.
+- Keep technical details after their function is clear.
+
+### Resolution Rules
+
 - Make Resolution reader-usable: what can now be diagnosed, separated, predicted, or interpreted?
 - Pair contrasting regimes as contrasting mechanisms rather than as parallel descriptions.
-- If a method is promising but insufficient, state both parts explicitly.
-- Keep technical details after their function is clear.
