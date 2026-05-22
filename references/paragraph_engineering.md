@@ -4,6 +4,8 @@
 
 Repair paragraph-level function: topic sentence, evidence order, mechanism chain, and paragraph ending.
 
+Story Architect Gate: Before applying this skill, confirm that `story_architect` has identified the main character and supporting actors. Do not repair paragraph flow if the manuscript's central story is still unclear.
+
 ## Input
 
 - One paragraph or a short sequence of paragraphs.

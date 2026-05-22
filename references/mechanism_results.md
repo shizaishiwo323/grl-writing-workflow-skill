@@ -4,6 +4,8 @@
 
 Turn Results and Discussion from figure description into mechanism interpretation.
 
+Story Architect Gate: Before applying this skill, confirm that `story_architect` has identified the main character and supporting actors. Do not polish or reorganize Results if the manuscript's central story is still unclear.
+
 ## Input
 
 - Results paragraph, figure caption, figure observations, or discussion draft.

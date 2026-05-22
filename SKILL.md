@@ -68,6 +68,7 @@ Sub-skill designs:
 
 - `references/workflow_router.md`: stage diagnosis and routing.
 - `references/story_architect.md`: storyline, novelty, protagonist, supporting actors.
+- `references/cases_story_architect.md`: reference-paper examples for Core Story, Central Scientific Question, main character, supporting actors, section storyline, and figure sequence logic.
 - `references/ocar_funnel.md`: Opening, Challenge, Action, Resolution at manuscript, section, and paragraph levels.
 - `references/narrative_echo_and_payoff.md`: paper-level and Results-level promise-payoff relationships, including Introduction-Results alignment and subsection-to-subsection echo within Results and Discussion.
 - `references/cases_narrative_echo_and_payoff.md`: manuscript-derived examples for Introduction payoff, forward pointers, backward links, and thread summaries.

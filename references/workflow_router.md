@@ -53,6 +53,23 @@ Use this order:
 7. If paragraph functions are unclear, route to `paragraph_engineering`.
 8. If logic is stable but wording is clumsy, route to `sentence_hierarchy`.
 
+## Trigger: Scientific Story Architect
+
+Use `references/story_architect.md` before all structure, mechanism, paragraph, or sentence skills when:
+
+- the user is unsure about the manuscript's main story;
+- the manuscript contains many results but no clear central claim;
+- figures and metrics feel like parallel work packages;
+- Introduction, Results, and Discussion appear to emphasize different things;
+- the user asks whether the manuscript is suitable for GRL.
+
+Routing logic:
+
+- If the main character and supporting actors are unclear, route to `story_architect` only.
+- If the main character is clear but the Introduction does not funnel toward it, route to `ocar_funnel`.
+- If the main character is clear but Results subsections do not pay off earlier promises, route to `narrative_echo_and_payoff` with `mechanism_results`.
+- Do not polish or reorganize prose until `story_architect` has produced a Core Story, Central Scientific Question, and Supporting Actors.
+
 ## Trigger: Narrative Echo And Payoff
 
 Use `references/narrative_echo_and_payoff.md` when the user asks about:

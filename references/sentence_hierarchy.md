@@ -4,6 +4,8 @@
 
 Polish sentence-level hierarchy after storyline, section logic, and paragraph function are stable.
 
+Story Architect Gate: Before applying this skill, confirm that `story_architect` has identified the main character and supporting actors. Do not polish sentences if the manuscript's central story is still unclear.
+
 ## Input
 
 - Sentence, paragraph, or marked-up draft.
