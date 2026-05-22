@@ -29,6 +29,15 @@ Self manuscript cases are used for project-specific transfer, especially the cur
 - MCR-REF-2026-001: T2 peak separation is interpreted as weakened pore coupling.
 - MCR-REF-2026-002: Off-diagonal exchange and geometry metrics explain coupling loss.
 
+## How to Choose a Case
+
+- If the draft only reports a figure trend, use observation-to-mechanism cases.
+- If the draft links geometry to NMR, SIP, CT, BTC, or permeability signals, use structure-to-signal cases.
+- If the draft introduces tortuosity, MVC, flow focusing, or another index, use metric-validation cases.
+- If the draft compares regimes, use regime-comparison cases.
+- If the draft explains breakthrough, transition, plateau, or tailing, use breakthrough-mechanism cases.
+- If the draft summarizes several results or a phase diagram, use mini-synthesis cases.
+
 ## Extraction Template
 
 ```markdown
@@ -45,6 +54,9 @@ tag_1; tag_2; tag_3
 
 ### Context
 What question or comparison is being handled before the result appears?
+
+### Typical Failure Pattern
+What weak draft pattern this case helps fix.
 
 ### Result Observation
 What pattern, figure feature, signal change, or metric behavior is observed?
@@ -79,6 +91,9 @@ mechanism_before_data; regime_comparison; evidence_hierarchy
 ### Context
 The Results must introduce three representative dissolution regimes without making the section sound like a parameter survey.
 
+### Typical Failure Pattern
+The Results opening lists cases, parameters, or figures before explaining what mechanism question those cases are meant to answer.
+
 ### Result Observation
 The opening identifies face dissolution, channeling, and wormholing as representative cases and shows their different acid-transport organizations at comparable porosity.
 
@@ -110,6 +125,9 @@ structure_to_signal; causal_chain; avoid_figure_description
 
 ### Context
 The manuscript must explain why face dissolution produces a distinct T2 pathway instead of only reporting a bimodal spectrum.
+
+### Typical Failure Pattern
+The paragraph reports matrix and vug peaks as separate curve features but does not explain what physical decoupling creates the spectral separation.
 
 ### Result Observation
 Dissolution localizes near the inlet, creating large vugs behind the reaction front and leaving a dense matrix ahead. The T2 spectrum evolves from one peak to separated matrix and vug peaks, then returns to a long-T2-dominated peak.
@@ -143,6 +161,9 @@ breakthrough_mechanism; transition_explanation; causal_chain
 ### Context
 Channeling must be distinguished from both face dissolution and wormholing using a transient signal pathway and a permeability outcome.
 
+### Typical Failure Pattern
+The sentence jumps from transient bimodality directly to early breakthrough without naming peak merging, conduit formation, or strengthened pore coupling.
+
 ### Result Observation
 A principal channel rapidly penetrates the domain, the T2 spectrum briefly becomes bimodal, and the spectrum then shifts toward a merged long-relaxation component near breakthrough.
 
@@ -175,6 +196,9 @@ metric_validation; secondary_metric_positioning; evidence_hierarchy
 ### Context
 After Section 3.1 interprets T2 pathways as pore coupling and flow-path reorganization, the manuscript needs an independent hydraulic check.
 
+### Typical Failure Pattern
+A secondary metric is introduced as a separate result block rather than as validation of an earlier T2 interpretation.
+
 ### Result Observation
 Tortuosity decreases with increasing porosity, but the timing and path of the decrease differ among regimes. Face dissolution reduces tortuosity late, whereas channeling and wormholing show earlier tortuosity reduction with different breakthrough timing.
 
@@ -206,6 +230,9 @@ metric_validation; breakthrough_mechanism; mini_synthesis
 
 ### Context
 The porosity-permeability relation establishes that channeling breaks through earlier than wormholing and face dissolution, but this hierarchy still needs a pore-coupling explanation.
+
+### Typical Failure Pattern
+A new index appears after the permeability hierarchy without first explaining what unresolved mechanism distinction the index will quantify.
 
 ### Result Observation
 Channeling reaches the permeability threshold at lower porosity than wormholing, and the MVC peak occurs earlier for channeling than for wormholing. Face dissolution shows weak and eventually disappearing matrix-vug connectivity.
