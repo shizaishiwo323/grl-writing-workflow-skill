@@ -21,7 +21,11 @@
 - Does it identify unmatched Introduction promises?
 - Does it identify major Results concepts that appear without setup?
 - Does it distinguish paper-level echo from Results-level echo?
+- Does it name the concrete detection signal, not only the general theory?
 - Does it recommend forward pointers, backward links, delayed payoffs, or thread summaries only where they serve the mechanism chain?
+- Does it identify the missing setup or missing payoff?
+- Does it provide a minimal fix rather than rewriting the whole section?
+- Does it cite a relevant NEP case ID when using the case library?
 - Does it avoid treating echo as decorative transition polishing?
 
 ## paragraph_engineering

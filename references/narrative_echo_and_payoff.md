@@ -122,6 +122,38 @@ Any concept introduced as central in the Introduction must return in Results, Di
 4. A later subsection does not explicitly return to earlier observations.
 5. The Discussion claims broad significance without returning to the Introduction gap.
 
+## Failure Symptoms by Echo Type
+
+### Missing Forward Pointer
+
+Symptom: A subsection ends with a value, figure description, or local observation, and the next subsection starts a new metric or topic without motivation.
+
+Minimal fix: Add one sentence explaining why the next analytical step is needed.
+
+### Missing Backward Link
+
+Symptom: A subsection begins with a new topic, metric, or figure but does not inherit the previous subsection's unresolved question or mechanism claim.
+
+Minimal fix: Start the subsection by naming the previous finding and stating what will now be tested, quantified, or explained.
+
+### Missing Delayed Payoff
+
+Symptom: A metric appears only when it is defined, with no earlier signal that such a metric is needed.
+
+Minimal fix: Add a setup sentence in the Introduction or preceding Results subsection that identifies the remaining distinction the metric will resolve.
+
+### Missing Thread Summary
+
+Symptom: Several Results subsections are individually correct, but the reader must infer the mechanism chain alone.
+
+Minimal fix: Add a 1-2 sentence synthesis that names the shared mechanism and links the main evidence types.
+
+### Orphan Introduction Promise
+
+Symptom: The Introduction emphasizes a central concept, method rationale, or application payoff that never returns in Results, Discussion, Implications, or Conclusions.
+
+Minimal fix: Remove or downgrade the orphan content, or add a real payoff where the later evidence answers it.
+
 ## Recommended Actions
 
 - Add one forward pointer at the end of a subsection.

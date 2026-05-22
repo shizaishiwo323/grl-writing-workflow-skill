@@ -85,6 +85,7 @@ Prompt and test materials:
 - `references/workflow_router_prompt.md`: router prompt template.
 - `references/story_architect_prompt.md`: storyline prompt template.
 - `references/ocar_funnel_prompt.md`: OCAR/funnel prompt template.
+- `references/narrative_echo_and_payoff_prompt.md`: promise-payoff and Results-continuity diagnosis prompt template.
 - `references/methods_evidence_chain_prompt.md`: methods evidence-chain prompt template.
 - `references/mechanism_results_prompt.md`: mechanism-centered results prompt template.
 - `references/paragraph_engineering_prompt.md`: paragraph organization prompt template.

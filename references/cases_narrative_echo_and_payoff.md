@@ -4,6 +4,8 @@ Purpose: store real writing-function cases that teach AI how a manuscript sets u
 
 Use this file for section-to-section continuity, Introduction-Results alignment, Results subsection transitions, delayed metric introduction, and final thread summaries.
 
+Self manuscript cases are used for project-specific transfer, especially the current NMR-dissolution storyline. Reference paper cases are used for cross-paper generalization, especially metric-building, regime-comparison, and method-extension papers.
+
 ## Case Index
 
 ### Self Manuscript Cases
@@ -30,6 +32,9 @@ Use this file for section-to-section continuity, Introduction-Results alignment,
 ### Source
 Paper title / journal / year / section position
 
+### Evidence Location
+Introduction paragraph or Results/Discussion section where the echo is visible.
+
 ### Echo Level
 Paper-level echo / Results-level echo / Paragraph-level echo
 
@@ -38,6 +43,9 @@ Introduction promise-payoff / Forward pointer / Backward link / Delayed payoff /
 
 ### Tags
 tag_1; tag_2
+
+### Detection Signal
+When the draft shows...
 
 ### Before Context
 What problem, observation, gap, or setup appears earlier?
@@ -63,6 +71,9 @@ What AI should do when it sees a similar draft.
 ### Source
 Tracking Spatiotemporal Mineral Dissolution Through Quantitative Nuclear Magnetic Resonance Signatures / current manuscript / Introduction to Section 3.3.
 
+### Evidence Location
+Introduction final two paragraphs; Section 3.3 opening and MVC interpretation; Implications first paragraph.
+
 ### Echo Level
 Paper-level echo.
 
@@ -71,6 +82,9 @@ Introduction promise-payoff.
 
 ### Tags
 intro_promise_payoff; delayed_payoff
+
+### Detection Signal
+A manuscript promises to interpret connectivity, coupling, or breakthrough from a signal, but the quantitative metric appears only later in Results.
 
 ### Before Context
 The Introduction argues that existing NMR interpretations mainly describe apparent pore size or porosity. It then states that this is insufficient for distinguishing dynamic dissolution regimes that have similar porosity increases but different spatial pathways and breakthrough mechanisms.
@@ -95,6 +109,9 @@ When a draft introduces a metric late in Results, scan the Introduction for prio
 ### Source
 Tracking Spatiotemporal Mineral Dissolution Through Quantitative Nuclear Magnetic Resonance Signatures / current manuscript / Results opening to Section 3.1.
 
+### Evidence Location
+Results opening paragraph immediately before Section 3.1; Section 3.1 first paragraph.
+
 ### Echo Level
 Results-level echo.
 
@@ -103,6 +120,9 @@ Forward pointer and backward link.
 
 ### Tags
 forward_pointer; backward_link
+
+### Detection Signal
+Results begins with selected regimes, cases, or parameters, and the first subsection needs to inherit that comparison logic rather than start with figure description.
 
 ### Before Context
 The Results opening selects three representative dissolution regimes: face dissolution, channeling, and wormholing. It also states that their contrasting acid-transport organization forms the structural basis for interpreting the NMR T2 signatures discussed next.
@@ -127,6 +147,9 @@ Before revising Results Section 1, check whether the paragraph immediately befor
 ### Source
 Tracking Spatiotemporal Mineral Dissolution Through Quantitative Nuclear Magnetic Resonance Signatures / current manuscript / Section 3.1 ending to Section 3.2 opening.
 
+### Evidence Location
+Section 3.1 final synthesis paragraphs; Section 3.2 opening paragraph.
+
 ### Echo Level
 Results-level echo.
 
@@ -135,6 +158,9 @@ Thread summary and backward link.
 
 ### Tags
 thread_summary; backward_link
+
+### Detection Signal
+One subsection interprets a signal or pattern, and the next subsection introduces an independent metric that should test the interpretation.
 
 ### Before Context
 Section 3.1 shows that face dissolution, channeling, and wormholing produce distinct T2 pathways: persistent peak separation, transient bimodality followed by merging, or broad peak overlap.
@@ -159,6 +185,9 @@ If a subsection makes a signal-based claim, ask what independent result later te
 ### Source
 Tracking Spatiotemporal Mineral Dissolution Through Quantitative Nuclear Magnetic Resonance Signatures / current manuscript / Section 3.2 to Section 3.3.
 
+### Evidence Location
+Section 3.2 final comparison of channeling and wormholing; Section 3.3 opening two paragraphs.
+
 ### Echo Level
 Results-level echo.
 
@@ -167,6 +196,9 @@ Delayed payoff and forward mechanism transition.
 
 ### Tags
 delayed_payoff; forward_pointer
+
+### Detection Signal
+A previous subsection validates part of the mechanism, but the next subsection introduces a new metric without explicitly stating what remains unresolved.
 
 ### Before Context
 Section 3.2 shows that channeling and wormholing can reach similar tortuosity values near comparable porosity, but differ in breakthrough timing. This creates a remaining mechanism question: if tortuosity is similar, what explains the efficiency hierarchy?
@@ -191,6 +223,9 @@ Look for "similar metric, different outcome" moments. These are natural places t
 ### Source
 Tracking Spatiotemporal Mineral Dissolution Through Quantitative Nuclear Magnetic Resonance Signatures / current manuscript / Section 3.3 ending.
 
+### Evidence Location
+Section 3.3 final paragraph; Implications opening paragraph; Conclusions second paragraph.
+
 ### Echo Level
 Results-level echo.
 
@@ -199,6 +234,9 @@ Thread summary.
 
 ### Tags
 thread_summary; intro_promise_payoff
+
+### Detection Signal
+Several subsections provide correct individual results, but the final Results subsection must convert them into one causal mechanism.
 
 ### Before Context
 Earlier sections establish regime-specific T2 pathways, tortuosity evolution, and permeability breakthrough timing. Each result answers part of the story, but the mechanism needs one final synthesis.
@@ -223,6 +261,9 @@ At the end of Results, require a thread summary that names the main mechanism an
 ### Source
 Physical Explanation of Archie's Porosity Exponent in Granular Materials: A Process-Based, Pore-Scale Numerical Study / Geophysical Research Letters / 2018 / Introduction, Results 3.3, Discussion.
 
+### Evidence Location
+Introduction final paragraph; Results Section 3.3; Discussion first two paragraphs; Conclusions.
+
 ### Echo Level
 Paper-level echo.
 
@@ -231,6 +272,9 @@ Introduction promise-payoff.
 
 ### Tags
 intro_promise_payoff; delayed_payoff
+
+### Detection Signal
+The Introduction frames an empirical parameter as physically unresolved, and Results must avoid jumping directly to a correlation without mechanism.
 
 ### Before Context
 The Introduction starts from the practical use of Archie's law and narrows to an unresolved issue: the porosity exponent m varies across materials, but its dominant textural control remains unclear.
@@ -255,6 +299,9 @@ If a manuscript explains an empirical coefficient, check whether Results first s
 ### Source
 Quantifying Dissolution Dynamics in Porous Media Using a Spatial Flow Focusing Profile / Geophysical Research Letters / 2024 / Introduction, Results and Discussion, Conclusions.
 
+### Evidence Location
+Introduction final paragraph; Results and Discussion Sections 4.1-4.3; Conclusions first two paragraphs.
+
 ### Echo Level
 Paper-level echo.
 
@@ -263,6 +310,9 @@ Introduction promise-payoff.
 
 ### Tags
 intro_promise_payoff; delayed_payoff
+
+### Detection Signal
+The paper proposes a new metric, but the draft must first show a specific classification or interpretation failure that makes the metric necessary.
 
 ### Before Context
 The Introduction states that dissolution-regime identification often relies on visual comparison of final structures. This becomes unreliable when wormholing, channeling, and uniform dissolution have subtle or similar-looking morphologies.
@@ -287,6 +337,9 @@ When a draft proposes a metric, ask: "What failure does this metric solve?" If t
 ### Source
 Quantifying Dissolution Dynamics in Porous Media Using a Spatial Flow Focusing Profile / Geophysical Research Letters / 2024 / Sections 4.1 to 4.3.
 
+### Evidence Location
+Results and Discussion Section 4.1 representative regimes; Section 4.2 phase diagram; Section 4.3 heterogeneity comparison.
+
 ### Echo Level
 Results-level echo.
 
@@ -295,6 +348,9 @@ Delayed payoff and thread summary.
 
 ### Tags
 delayed_payoff; thread_summary
+
+### Detection Signal
+Final morphologies look similar or ambiguous, so the draft needs to preserve and pay off the evolution history across subsections.
 
 ### Before Context
 Section 4.1 first contrasts representative cases: wormholing advances from the inlet, while channeling widens preexisting paths along the system. This establishes the process distinction.
@@ -319,6 +375,9 @@ If a draft compares regimes, check whether later subsections return to the same 
 ### Source
 Anomalous Transport in Dissolving Porous Media: Transitions Between Fickian and Non-Fickian Regimes / Geophysical Research Letters / 2025 / Introduction, Sections 3.1 to 3.3, Conclusions.
 
+### Evidence Location
+Introduction final paragraph; Results and Discussions Sections 3.1-3.3; Conclusions first two paragraphs.
+
 ### Echo Level
 Paper-level and Results-level echo.
 
@@ -327,6 +386,9 @@ Introduction promise-payoff and backward link.
 
 ### Tags
 intro_promise_payoff; backward_link
+
+### Detection Signal
+A Results section compares two opposing regimes and needs to move from contrast, to mechanism, to generalized phase behavior.
 
 ### Before Context
 The Introduction argues that studies of anomalous transport usually treat structural heterogeneity as fixed, while dissolution changes pore structure. It then promises to test how initial heterogeneity and dissolution regime shape transport behavior.
@@ -351,6 +413,9 @@ When revising Results, check whether a regime comparison has three linked steps:
 ### Source
 How Does Fluid Exchange Between Pores in Unsaturated Porous Media? / Geophysical Research Letters / 2026 / Introduction, Sections 3.1 to 3.4, Geophysical Implications.
 
+### Evidence Location
+Introduction final paragraph; Results and Discussions opening; Sections 3.1-3.4; Geophysical Implications opening.
+
 ### Echo Level
 Paper-level and Results-level echo.
 
@@ -359,6 +424,9 @@ Introduction promise-payoff and delayed payoff.
 
 ### Tags
 intro_promise_payoff; delayed_payoff
+
+### Detection Signal
+A familiar method is extended to a harder physical condition, and Results must separate observable signal, validation, and structural determinant.
 
 ### Before Context
 The Introduction states that NMR can track pore coupling in saturated media, but unsaturated conditions complicate interpretation because water-pathway geometry and connectivity change with saturation.
