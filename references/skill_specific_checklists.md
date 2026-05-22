@@ -15,6 +15,8 @@
 - Does it end with a scientific takeaway?
 - Does it avoid treating Results subsections as isolated blocks?
 - Does it add a forward pointer, backward link, delayed payoff, or thread summary when the mechanism chain needs one?
+- Does it cite a relevant MCR case ID when a similar mechanism-writing problem exists?
+- Does it identify whether the case is observation-to-mechanism, structure-to-signal, metric validation, regime comparison, breakthrough mechanism, or mini synthesis?
 
 ## narrative_echo_and_payoff
 

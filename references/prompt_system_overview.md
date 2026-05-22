@@ -52,7 +52,7 @@ Do not call all prompts in a fixed line. First run `workflow_router_prompt.md`. 
 | OCAR | `references/ocar_funnel_prompt.md` | Opening-Challenge-Action-Resolution repair |
 | Narrative Echo | `references/narrative_echo_and_payoff_prompt.md` | Echo problem, echo level, echo type, missing setup/payoff, relevant case ID, minimal fix, suggested sentence |
 | Methods Evidence | `references/methods_evidence_chain_prompt.md` | Workflow, parameter, validation, and processing checks |
-| Mechanism Results | `references/mechanism_results_prompt.md` | Observation-to-mechanism interpretation |
+| Mechanism Results | `references/mechanism_results_prompt.md` | Case-guided observation-to-mechanism interpretation |
 | Paragraph | `references/paragraph_engineering_prompt.md` | Topic sentence, evidence order, paragraph function |
 | Sentence | `references/sentence_hierarchy_prompt.md` | Physical verbs, sentence order, claim calibration |
 

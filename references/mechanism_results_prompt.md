@@ -28,6 +28,7 @@ Optional literature context:
 
 - Observation-mechanism map.
 - Weak mechanism links.
+- Closest matching MCR case ID and mechanism-writing type when a relevant case exists.
 - Revised paragraph or revised key sentences.
 - Takeaway sentence.
 - Remaining evidence gaps, if any.
@@ -39,7 +40,8 @@ Optional literature context:
 3. Connect the mechanism to the central claim.
 4. Keep numerical values only where they support the mechanism.
 5. Check whether the paragraph or subsection inherits from a previous result and prepares a later result when needed.
-6. End with a mechanism takeaway, not a figure description.
+6. Compare the problem with `references/cases_mechanism_centered_results.md`. When a matching case exists, cite the closest MCR Case ID and state whether the current problem is observation-to-mechanism, structure-to-signal, metric validation, regime comparison, breakthrough mechanism, or mini synthesis.
+7. End with a mechanism takeaway, not a figure description.
 
 ## Forbidden Actions
 
@@ -53,6 +55,8 @@ Optional literature context:
 
 ```text
 Diagnosis:
+Closest MCR Case:
+Mechanism-Writing Type:
 Observation -> Mechanism Map:
 Weak Links:
 Revision:
@@ -84,3 +88,4 @@ This transient bimodality followed by rapid peak merging indicates that channeli
 - Does it connect signal evolution to flow, coupling, conduit formation, or breakthrough?
 - Does the paragraph end with a scientific judgment?
 - Does it preserve or add the needed promise-payoff link to surrounding Results subsections?
+- Does it cite the closest MCR case ID when a similar mechanism-writing problem exists?

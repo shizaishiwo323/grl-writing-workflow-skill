@@ -85,6 +85,30 @@ Before revising a Results subsection, check:
 - Does the ending sentence include a forward pointer when needed?
 - Does the subsection end with a mechanism-oriented mini-summary rather than only data?
 
+## Case-Derived Rules
+
+Use `references/cases_mechanism_centered_results.md` when a Results task needs concrete examples of mechanism-centered writing.
+
+1. Results paragraphs should convert observations into mechanisms, not merely describe figures.
+2. A metric should be introduced only after the mechanism question requiring that metric is clear.
+3. Secondary metrics should validate or constrain the main interpretation, not compete with the central storyline.
+4. Regime comparisons should be organized around the physical process that causes divergence among regimes.
+5. Transient signal behavior should be written as a transition between physical states, not as a time-series description alone.
+6. Bulk geophysical metrics should be connected to pore-scale redistribution of flux, exchange, coupling, or connectivity.
+7. Breakthrough curves, spectra, and profile shapes should be mapped to physical pathways, storage zones, exchange processes, or flow structures.
+8. Each Results subsection should end with a mechanism-oriented mini-synthesis when it prepares the next step.
+
+## Reference Case Library
+
+Load the case library especially for these patterns:
+
+- Observation to mechanism: `MCR-SELF-002`, `MCR-REF-2018-003`, `MCR-REF-2025-001`, `MCR-REF-2026-001`.
+- Structure to signal: `MCR-SELF-002`, `MCR-SELF-003`, `MCR-REF-2026-001`, `MCR-REF-2026-002`.
+- Metric validation: `MCR-SELF-004`, `MCR-SELF-005`, `MCR-REF-2024-001`, `MCR-REF-2026-002`.
+- Regime comparison: `MCR-SELF-001`, `MCR-REF-2024-002`, `MCR-REF-2025-003`.
+- Breakthrough or transition mechanism: `MCR-SELF-003`, `MCR-SELF-005`, `MCR-REF-2025-001`.
+- Mini synthesis: `MCR-SELF-005`, `MCR-REF-2025-003`, `MCR-REF-2026-002`.
+
 ## Forbidden Patterns
 
 - Pure chronological figure description.
