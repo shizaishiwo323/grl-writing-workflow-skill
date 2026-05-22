@@ -77,6 +77,32 @@ Example pattern:
 Together, the T2 spectra and tortuosity trends show that the regimes differ not only in geometry, but also in the timing of matrix-vug coupling and flow-path optimization.
 ```
 
+## Rules Derived from Cases
+
+### Rule 1: New metrics need prior motivation
+
+If a metric appears for the first time in Results, the Introduction or the preceding Results subsection should already explain why existing observations are insufficient and why the new metric is needed.
+
+### Rule 2: Each Results subsection should inherit or prepare
+
+A Results subsection should either inherit a question from the previous subsection or prepare the next analytical step. If it does neither, it will read as an isolated result block.
+
+### Rule 3: Validate signal interpretation with an independent metric
+
+When a subsection interprets a signal or pattern, the next subsection should test whether that interpretation corresponds to an independent physical, hydraulic, structural, or mechanistic measure.
+
+### Rule 4: Use delayed payoff when a partial explanation leaves a residual question
+
+If one metric explains part of a contrast but cannot explain the whole outcome, explicitly state the remaining question before introducing the next metric or mechanism.
+
+### Rule 5: Use thread summaries after multiple result blocks
+
+After several related results, insert a short synthesis that converts them into one mechanism chain. The summary should name the main process, not only repeat figure observations.
+
+### Rule 6: Do not leave Introduction promises unpaid
+
+Any concept introduced as central in the Introduction must return in Results, Discussion, Implications, or Conclusions. If it does not return, remove it, downgrade it, or add a real payoff.
+
 ## Diagnostic Checklist
 
 - Does each major Introduction promise receive a later payoff?
