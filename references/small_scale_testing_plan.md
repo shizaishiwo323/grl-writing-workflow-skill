@@ -17,7 +17,7 @@ Follow the priority in `临时.md`:
 1. Test `workflow_router_prompt.md` on one Introduction paragraph, one Methods paragraph, and one Results paragraph.
 2. Test `narrative_echo_and_payoff_prompt.md` on one Introduction-Results promise, one Results subsection boundary, and one sudden-metric case.
 3. Test `mechanism_results_prompt.md` on one Results paragraph that originally described spectra or tortuosity.
-4. Test `paragraph_engineering_prompt.md` on one paragraph with mixed function.
+4. Test `paragraph_engineering_prompt.md` on one paragraph with mixed function, using `cases_paragraph_engineering.md` to match a PE case type before rewriting.
 5. Test `sentence_hierarchy_prompt.md` only after the same paragraph's logic is stable.
 6. Test `ocar_funnel_prompt.md` on Abstract or Introduction.
 7. Test `methods_evidence_chain_prompt.md` on the RTM or NMR Methods paragraph.
@@ -167,6 +167,51 @@ A Results subsection introduces MVC immediately after the porosity-permeability 
 
 Expected output:
 Add the missing bridge from macroscopic breakthrough hierarchy to matrix-vug coupling and cite `MCR-SELF-005`.
+
+## Paragraph Engineering Tests
+
+Use `references/paragraph_engineering_prompt.md`, `references/paragraph_engineering.md`, and `references/cases_paragraph_engineering.md`.
+
+Expected diagnostic output:
+
+```text
+Paragraph Function:
+Case Type:
+Closest PE Case:
+Main Problem:
+Keep:
+Move/Delete/Compress:
+Revised Topic Sentence:
+Revised Paragraph:
+Final Takeaway:
+```
+
+Test PE-001: Secondary metric introduced as an isolated result
+
+Input:
+A paragraph introduces tortuosity by defining it and reporting that it decreases with porosity, but does not explain that tortuosity validates the T2-derived flow-path interpretation.
+
+Expected output:
+Classify as `PE-TOPIC` or `PE-ECHO`, cite a relevant PE case, and rewrite the topic sentence so tortuosity has a validation function.
+
+Relevant case IDs:
+PE-REF-2026-001; PE-REF-2025-002.
+
+Test PE-002: Curve description before mechanism
+
+Input:
+A paragraph first lists BTC early arrival, plateau, and tailing, then vaguely says these reflect wormholing.
+
+Expected output:
+Classify as `PE-ORDER`, cite `PE-REF-2025-001`, and reorder the paragraph around physical transport zones before curve features.
+
+Test PE-003: Results subsection boundary without echo
+
+Input:
+Section 3.1 ends with T2 peak separation and Section 3.2 starts with T2-store-T2 map definitions.
+
+Expected output:
+Classify as `PE-ECHO`, cite `PE-REF-2026-003`, and add a backward link explaining what the second analysis resolves.
 
 ## Test Record Template
 

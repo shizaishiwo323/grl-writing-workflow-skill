@@ -33,6 +33,8 @@
 ## paragraph_engineering
 
 - Does it assign one paragraph function?
+- Does it identify a primary PE case type: PE-TOPIC, PE-ORDER, PE-MECH, PE-ECHO, PE-END, or PE-COMPRESS?
+- Does it cite a relevant PE case ID from `cases_paragraph_engineering.md` when a similar case exists?
 - Does it repair the topic sentence?
 - Does it identify what to keep, move, delete, or compress?
 - Does the revised paragraph end on the same function it began with?

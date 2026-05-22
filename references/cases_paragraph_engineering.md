@@ -16,16 +16,16 @@ These cases are extracted from reference papers in `范例文章/`. Target parag
 
 ## Case Index
 
-- PE-REF-2024-001: Flow focusing profile opens by naming its diagnostic function.
-- PE-REF-2026-001: Results opening assigns the integrated framework one task.
-- PE-REF-2024-002: Channeling paragraph orders visual contrast before metric behavior.
-- PE-REF-2025-001: BTC paragraph orders transport zones before curve features.
-- PE-REF-2018-001: Electric-field heterogeneity turns an exponent trend into mechanism.
-- PE-REF-2026-002: Water-pathway geometry explains weakening pore coupling.
-- PE-REF-2025-002: Transport observations create the need for mechanism analysis.
-- PE-REF-2026-003: T2 peak separation prepares quantitative exchange mapping.
-- PE-REF-2024-003: Heterogeneity paragraph ends by upgrading metric value.
-- PE-REF-2025-003: BTC comparison ends by turning curve shape into diagnostic inference.
+- PE-REF-2024-001: PE-TOPIC / Flow focusing profile opens by naming its diagnostic function.
+- PE-REF-2026-001: PE-TOPIC / Results opening assigns the integrated framework one task.
+- PE-REF-2024-002: PE-ORDER / Channeling paragraph orders visual contrast before metric behavior.
+- PE-REF-2025-001: PE-ORDER / BTC paragraph orders transport zones before curve features.
+- PE-REF-2018-001: PE-MECH / Electric-field heterogeneity turns an exponent trend into mechanism.
+- PE-REF-2026-002: PE-MECH / Water-pathway geometry explains weakening pore coupling.
+- PE-REF-2025-002: PE-ECHO / Transport observations create the need for mechanism analysis.
+- PE-REF-2026-003: PE-ECHO / T2 peak separation prepares quantitative exchange mapping.
+- PE-REF-2024-003: PE-END / Heterogeneity paragraph ends by upgrading metric value.
+- PE-REF-2025-003: PE-END / BTC comparison ends by turning curve shape into diagnostic inference.
 
 ## Extraction Template
 
@@ -34,6 +34,9 @@ These cases are extracted from reference papers in `范例文章/`. Target parag
 
 ### Source
 Paper title / section / paragraph location
+
+### Case Type
+PE-TOPIC / PE-ORDER / PE-MECH / PE-ECHO / PE-END / PE-COMPRESS
 
 ### Paragraph Function
 orient / define / compare / validate / interpret / conclude
@@ -79,6 +82,9 @@ When the user gives a similar paragraph, what should AI check or revise first?
 ### Source
 Szawełło et al., "Quantifying Dissolution Dynamics in Porous Media Using a Spatial Flow Focusing Profile" / Section 3, Flow Focusing Profile / opening paragraphs.
 
+### Case Type
+PE-TOPIC.
+
 ### Paragraph Function
 define.
 
@@ -122,6 +128,9 @@ If a draft starts a paragraph with an equation or metric definition, first ask: 
 ### Source
 Zhou et al., "How Does Fluid Exchange Between Pores in Unsaturated Porous Media?" / Section 3, Results and Discussions / opening paragraph.
 
+### Case Type
+PE-TOPIC.
+
 ### Paragraph Function
 orient.
 
@@ -163,6 +172,9 @@ When a Results opening lists methods or figures, rewrite it so the first sentenc
 
 ### Source
 Szawełło et al., "Quantifying Dissolution Dynamics in Porous Media Using a Spatial Flow Focusing Profile" / Section 4.1, Dissolution Regimes / channeling paragraph following Figure 2.
+
+### Case Type
+PE-ORDER.
 
 ### Paragraph Function
 compare.
@@ -206,6 +218,9 @@ If a draft compares two regimes by listing many observations, identify the one d
 
 ### Source
 Deng et al., "Anomalous Transport in Dissolving Porous Media: Transitions Between Fickian and Non-Fickian Regimes" / Section 3.2 / final-stage wormholing transport paragraph.
+
+### Case Type
+PE-ORDER.
 
 ### Paragraph Function
 interpret.
@@ -252,6 +267,9 @@ If a paragraph starts by describing curve morphology, ask which physical regions
 ### Source
 Niu and Zhang, "Physical Explanation of Archie's Porosity Exponent in Granular Materials" / Section 3.3, Evolution of m / opening mechanism paragraph.
 
+### Case Type
+PE-MECH.
+
 ### Paragraph Function
 interpret.
 
@@ -296,6 +314,9 @@ If a draft says a fitted exponent "increases" or "decreases" without physical me
 ### Source
 Zhou et al., "How Does Fluid Exchange Between Pores in Unsaturated Porous Media?" / Section 3.4, Determinants of Pore Coupling Effect Under Unsaturated Conditions / final mechanism paragraph.
 
+### Case Type
+PE-MECH.
+
 ### Paragraph Function
 interpret.
 
@@ -339,6 +360,9 @@ If a paragraph lists metric changes, rewrite the ending as "variable change -> g
 ### Source
 Deng et al., "Anomalous Transport in Dissolving Porous Media: Transitions Between Fickian and Non-Fickian Regimes" / Section 3.1 ending to Section 3.2 opening.
 
+### Case Type
+PE-ECHO.
+
 ### Paragraph Function
 orient.
 
@@ -379,6 +403,9 @@ If a Results subsection begins with a new figure, add a backward-link sentence t
 
 ### Source
 Zhou et al., "How Does Fluid Exchange Between Pores in Unsaturated Porous Media?" / Section 3.1 ending to Section 3.2 opening.
+
+### Case Type
+PE-ECHO.
 
 ### Paragraph Function
 orient.
@@ -423,6 +450,9 @@ If a draft introduces a new analysis after a signal trend, check whether the new
 ### Source
 Szawełło et al., "Quantifying Dissolution Dynamics in Porous Media Using a Spatial Flow Focusing Profile" / Section 4.3, Impact of Heterogeneity / final paragraph.
 
+### Case Type
+PE-END.
+
 ### Paragraph Function
 conclude.
 
@@ -464,6 +494,9 @@ If a paragraph ends with a figure observation, ask "So what does this prevent, e
 
 ### Source
 Deng et al., "Anomalous Transport in Dissolving Porous Media: Transitions Between Fickian and Non-Fickian Regimes" / Section 3.1 / final comparison paragraph.
+
+### Case Type
+PE-END.
 
 ### Paragraph Function
 conclude.

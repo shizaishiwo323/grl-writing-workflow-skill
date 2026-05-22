@@ -42,10 +42,10 @@ Stage 2 Manuscript Architecture Design:
 Use `references/story_architect.md`, `references/ocar_funnel.md`, `references/narrative_echo_and_payoff.md`, and `references/skill_hierarchy_map.md`. Output section functions, subsection sequence, figure sequence, OCAR roles, and Introduction-Results promise-payoff checks. Do not do grammar-level revision.
 
 Stage 3 Mechanism Construction:
-Use `references/narrative_echo_and_payoff.md`, `references/mechanism_results.md`, `references/cases_mechanism_centered_results.md`, `references/methods_evidence_chain.md`, and `references/paragraph_engineering.md`. Turn results from isolated blocks into promise-payoff mechanism progression. Keep secondary metrics as support, not the protagonist.
+Use `references/narrative_echo_and_payoff.md`, `references/mechanism_results.md`, `references/cases_mechanism_centered_results.md`, `references/methods_evidence_chain.md`, `references/paragraph_engineering.md`, and, when revising paragraph function or order, `references/cases_paragraph_engineering.md`. Turn results from isolated blocks into promise-payoff mechanism progression. Keep secondary metrics as support, not the protagonist.
 
 Stage 4 Reader Experience Optimization:
-Use `references/paragraph_engineering.md` and `references/sentence_hierarchy.md`. Improve topic sentences, transitions, information load, reader guidance, and claim calibration after the structure is stable.
+Use `references/paragraph_engineering.md`, `references/cases_paragraph_engineering.md`, and `references/sentence_hierarchy.md`. Improve topic sentences, transitions, information load, reader guidance, and claim calibration after the structure is stable.
 
 Stage 5 Reviewer-Oriented Refinement:
 Use `references/principles.md`, `references/tag_system.md`, `references/narrative_echo_and_payoff.md`, and `references/global_prompt_checklist.md`. Check novelty clarity, GRL fit, overclaim, evidence gaps, method reproducibility, broad implication, Introduction-Results payoff, and likely reviewer attack points.
@@ -77,6 +77,7 @@ Sub-skill designs:
 - `references/mechanism_results.md`: results as physical mechanism progression.
 - `references/cases_mechanism_centered_results.md`: reference-paper and manuscript examples for observation-to-mechanism, structure-to-signal, metric validation, regime comparison, breakthrough mechanism, and mini-synthesis Results writing.
 - `references/paragraph_engineering.md`: topic sentence, evidence order, mini-implication.
+- `references/cases_paragraph_engineering.md`: reference-paper examples for PE-TOPIC, PE-ORDER, PE-MECH, PE-ECHO, and PE-END paragraph repair cases.
 - `references/sentence_hierarchy.md`: sentence function, transitions, claim strength, information load.
 - `references/skill_hierarchy_map.md`: how the sub-skills relate.
 

@@ -58,6 +58,28 @@ Look for:
 4. Move or delete details that belong to another paragraph.
 5. End with a sentence that returns to the paragraph function.
 
+## Case-Guided Diagnosis
+
+For full reference cases, see `references/cases_paragraph_engineering.md`. Use those cases before rewriting paragraphs, especially when diagnosing topic sentence failure, evidence-order failure, mechanism-buried paragraphs, paragraph-to-paragraph echo, or weak mini-implication endings.
+
+Match the paragraph to one primary case type:
+
+- `PE-TOPIC`: function-first topic sentence.
+- `PE-ORDER`: evidence order.
+- `PE-MECH`: observation-to-mechanism paragraph.
+- `PE-ECHO`: paragraph-to-paragraph echo.
+- `PE-END`: mini-implication ending.
+- `PE-COMPRESS`: detail compression / detail repositioning.
+
+Use the case type to decide the first operation:
+
+- If `PE-TOPIC`, repair the opening sentence before editing details.
+- If `PE-ORDER`, reorder evidence before polishing sentences.
+- If `PE-MECH`, insert or foreground the physical mechanism chain.
+- If `PE-ECHO`, inspect previous and next paragraphs before revising the target paragraph.
+- If `PE-END`, rewrite the final sentence so it returns to the paragraph function.
+- If `PE-COMPRESS`, move or delete details whose function belongs elsewhere.
+
 ## Paragraph-to-Paragraph Echo
 
 A strong Results paragraph should not stand alone.
@@ -85,6 +107,8 @@ When revising a paragraph, check:
 - Keeping correct but low-function detail in the main paragraph.
 
 ## Example Cases
+
+Full case library: `references/cases_paragraph_engineering.md`.
 
 Case ID: R-011
 

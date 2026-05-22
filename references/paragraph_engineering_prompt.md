@@ -28,6 +28,7 @@ Central claim:
 ## Output
 
 - Paragraph function.
+- Closest Paragraph Engineering case type and case ID.
 - Topic sentence diagnosis.
 - Evidence order diagnosis.
 - Sentences to keep, move, compress, or delete.
@@ -36,11 +37,13 @@ Central claim:
 ## Procedure
 
 1. Assign one paragraph function: orient, define, compare, validate, interpret, or conclude.
-2. Write or repair the topic sentence.
-3. Order evidence from central to supporting.
-4. Move or delete side details.
-5. Check whether the paragraph inherits from the previous paragraph and prepares the next paragraph when the argument continues.
-6. End with a sentence that returns to the paragraph function and, when needed, provides a mini-implication.
+2. Match the paragraph to one primary case type from `references/cases_paragraph_engineering.md`: PE-TOPIC, PE-ORDER, PE-MECH, PE-ECHO, PE-END, or PE-COMPRESS.
+3. Cite the closest PE case ID if one exists; if no case fits, state `Closest PE Case: none`.
+4. Write or repair the topic sentence.
+5. Order evidence from central to supporting.
+6. Move or delete side details.
+7. Check whether the paragraph inherits from the previous paragraph and prepares the next paragraph when the argument continues.
+8. End with a sentence that returns to the paragraph function and, when needed, provides a mini-implication.
 
 ## Forbidden Actions
 
@@ -54,6 +57,8 @@ Central claim:
 
 ```text
 Paragraph Function:
+Case Type:
+Closest PE Case:
 Main Problem:
 Keep:
 Move/Delete/Compress:
@@ -83,6 +88,7 @@ Flow field tortuosity \\tau is defined based on velocity ratios (Text S3) and pr
 ## Self-Check
 
 - Is the paragraph's function explicit in the first sentence?
+- Did the revision use a relevant PE case type before rewriting?
 - Does every detail support that function?
 - Does the final sentence return to the same function?
 - Does the paragraph connect to the surrounding paragraph sequence when needed?
