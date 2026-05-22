@@ -39,7 +39,7 @@ Stage 1 Research Story Discovery:
 Use `references/story_architect.md` and `references/ocar_funnel.md`. Output a one-sentence storyline, novelty statement, main figure sequence, supporting actor list, and mechanism sketch. Do not polish sentences.
 
 Stage 2 Manuscript Architecture Design:
-Use `references/story_architect.md`, `references/ocar_funnel.md`, and `references/skill_hierarchy_map.md`. Output section functions, subsection sequence, figure sequence, and OCAR roles. Do not do grammar-level revision.
+Use `references/story_architect.md`, `references/ocar_funnel.md`, `references/narrative_echo_and_payoff.md`, and `references/skill_hierarchy_map.md`. Output section functions, subsection sequence, figure sequence, OCAR roles, and Introduction-Results promise-payoff checks. Do not do grammar-level revision.
 
 Stage 3 Mechanism Construction:
 Use `references/narrative_echo_and_payoff.md`, `references/mechanism_results.md`, `references/methods_evidence_chain.md`, and `references/paragraph_engineering.md`. Turn results from isolated blocks into promise-payoff mechanism progression. Keep secondary metrics as support, not the protagonist.
@@ -48,7 +48,7 @@ Stage 4 Reader Experience Optimization:
 Use `references/paragraph_engineering.md` and `references/sentence_hierarchy.md`. Improve topic sentences, transitions, information load, reader guidance, and claim calibration after the structure is stable.
 
 Stage 5 Reviewer-Oriented Refinement:
-Use `references/principles.md`, `references/tag_system.md`, and `references/global_prompt_checklist.md`. Check novelty clarity, GRL fit, overclaim, evidence gaps, method reproducibility, broad implication, and likely reviewer attack points.
+Use `references/principles.md`, `references/tag_system.md`, `references/narrative_echo_and_payoff.md`, and `references/global_prompt_checklist.md`. Check novelty clarity, GRL fit, overclaim, evidence gaps, method reproducibility, broad implication, Introduction-Results payoff, and likely reviewer attack points.
 
 ## Reference Loading
 
