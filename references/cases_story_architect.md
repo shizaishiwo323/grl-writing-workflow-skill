@@ -4,6 +4,16 @@ Purpose: extract how high-quality papers define one central story, assign a main
 
 Use these cases as reference examples before applying OCAR, mechanism results, paragraph engineering, or sentence hierarchy.
 
+## Case Index
+
+| Case | Best used for | Main lesson |
+|---|---|---|
+| Case 1: NMR dissolution | Signal-mechanism-breakthrough paper | Use methods and metrics to reveal, validate, and quantify one physical process. |
+| Case 2: Archie's exponent | Parameter-explanation paper | Turn an empirical parameter into a physical mechanism story. |
+| Case 3: Flow focusing profile | Metric-proposal paper | A metric should resolve a specific classification failure. |
+| Case 4: Anomalous transport | Regime-comparison paper | Use a common mediator to compare contrasting regimes. |
+| Case 5: Unsaturated pore coupling | Signal-interpretation paper | Pair an invisible process with observable signal and structural validation. |
+
 ## Case 1: NMR Signatures Track Dissolution-Driven Pore Coupling
 
 ## Source
@@ -67,7 +77,9 @@ When a paper contains multiple methods and metrics, identify one physical proces
 
 ## AI Instruction
 
-When AI faces a similar manuscript, first name the physical process that carries the paper. Then force every method, metric, figure, and subsection to answer one of three roles: reveal the process, validate it, or quantify its consequence.
+1. Identify the physical process that carries the paper.
+2. Assign each method, metric, figure, and subsection one role: reveal, validate, quantify, or explain.
+3. Downgrade any method detail that does not serve one of these roles.
 
 ## Case 2: Pore Throats Explain Archie's Porosity Exponent
 
@@ -134,7 +146,9 @@ A strong mechanism paper can let one empirical relationship remain in the backgr
 
 ## AI Instruction
 
-When AI reads a parameter-explanation paper, do not summarize the parameter alone. Identify the physical structure or process that makes the parameter change, then check whether the figure sequence moves from pattern to mechanism to transferable predictor.
+1. Identify the empirical parameter or relationship that the paper explains.
+2. Find the physical structure or process that makes the parameter change.
+3. Check whether the figure sequence moves from pattern, to mechanism, to transferable predictor.
 
 ## Case 3: Flow Focusing Profile Quantifies Dissolution Regimes
 
@@ -200,7 +214,9 @@ If a paper proposes a metric, its story should begin with the specific judgment 
 
 ## AI Instruction
 
-When AI faces a metric paper, ask what ambiguity the metric resolves. Then check that the figures first define the metric, then demonstrate its distinguishing power, and only then generalize it.
+1. Identify the ambiguity or classification failure that motivates the metric.
+2. Check whether the metric is introduced as the answer to that problem, not as a standalone product.
+3. Verify that the figures define the metric, demonstrate its distinguishing power, and then generalize it.
 
 ## Case 4: Dissolution Regimes Switch Transport Behavior
 
@@ -267,7 +283,9 @@ For mechanism papers with two contrasting regimes, make the contrast symmetric: 
 
 ## AI Instruction
 
-When AI analyzes a regime-comparison paper, identify the common mediator that both regimes affect. In this case, dissolution regime affects flow heterogeneity, which then controls transport.
+1. Identify the common mediator affected by all compared regimes.
+2. State how each regime changes that mediator in opposite or contrasting ways.
+3. Link the mediator to the observed behavior, so the comparison becomes mechanistic rather than descriptive.
 
 ## Case 5: Saturation Controls Pore Coupling Through Water-Pathway Connectivity
 
@@ -332,4 +350,6 @@ When a method measures an invisible exchange process, pair the signal with an in
 
 ## AI Instruction
 
-When AI faces a signal-interpretation paper, separate three layers: the invisible process, the observable signal, and the independent structural explanation. The story should move through those layers in that order.
+1. Separate the invisible process, the observable signal, and the independent structural explanation.
+2. Check whether the signal is interpreted through structure rather than treated as a correlation.
+3. Make the story move from process, to signal, to structural validation, to broader monitoring implication.

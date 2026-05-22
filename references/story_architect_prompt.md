@@ -27,20 +27,43 @@ Target journal:
 
 ## Output
 
-- One-sentence central claim.
-- Storyline spine.
-- Story drift diagnosis.
-- Revised title direction.
-- Abstract/Introduction alignment notes.
+- One-sentence Core Story.
+- Central Scientific Question.
+- Main Character and Supporting Actors.
+- Potential Distractions.
+- Section-Level Storyline.
+- Figure Sequence Logic.
+- Next writing operation.
 
 ## Procedure
 
-1. Identify the main physical process.
-2. Identify the measurable signal or evidence.
-3. Identify the mechanism revealed by the evidence.
-4. Identify the consequence or implication.
-5. Rewrite the storyline as one sentence.
-6. Diagnose which sections drift away from that sentence.
+1. Identify the main physical process, diagnostic relationship, or controlling contrast.
+2. State the central scientific question the manuscript answers.
+3. Identify the main character.
+4. Assign methods, metrics, figures, and validation checks as supporting actors.
+5. Identify potential distractions that should be downgraded or moved to SI.
+6. Check whether the section sequence supports one story.
+7. Check whether the figure sequence moves from framework or concept, to core observation, to mechanism, quantification, or implication.
+8. Recommend the next writing operation: OCAR, narrative echo, methods evidence, mechanism results, paragraph, or sentence.
+
+## Do Not Confuse
+
+- Main character is not necessarily the method.
+- Main character is not necessarily the newest metric.
+- Supporting actor is not unimportant; it is important because it serves the main character.
+- A paper can contain several results, but it should not contain several competing stories.
+- A strong story is not a slogan; it must be supported by section sequence and figure sequence.
+
+## Failure Signals
+
+The manuscript likely needs Story Architect if:
+
+- Abstract emphasizes a method, but Discussion emphasizes an application.
+- Introduction gap is about one problem, but Results mainly answer another.
+- Each figure can be explained alone, but the figure sequence has no cumulative logic.
+- A new metric appears as a product, not as the answer to a defined problem.
+- Results contain many values but no controlling mechanism.
+- SI-level method details are needed to understand the main claim.
 
 ## Forbidden Actions
 
@@ -52,11 +75,15 @@ Target journal:
 ## Output Format
 
 ```text
-Central Claim:
-Storyline Spine:
-Drift Points:
-Title Direction:
-Section Alignment Notes:
+Core Story:
+Central Scientific Question:
+Main Character:
+Supporting Actors:
+Potential Distractions:
+Section-Level Storyline:
+Figure Sequence Logic:
+Transferable Rule:
+Next Writing Operation:
 Do Not Do Yet:
 ```
 
@@ -81,5 +108,6 @@ Tracking Spatiotemporal Mineral Dissolution Through Quantitative Nuclear Magneti
 ## Self-Check
 
 - Can the paper be summarized in one mechanism-centered sentence?
+- Is the main character different from its supporting actors?
 - Does the title carry the main scientific action?
-- Do all sections support the same story?
+- Do all sections and figures support the same story?

@@ -66,6 +66,14 @@ A strong figure sequence should move from framework or concept, to core observat
 
 Move technical details to SI when they support credibility but do not advance the main story. The main text should tell the story; SI should carry reproducibility, parameters, validation details, and secondary checks.
 
+## Do Not Confuse
+
+- Main character is not necessarily the method.
+- Main character is not necessarily the newest metric.
+- Supporting actor is not unimportant; it is important because it serves the main character.
+- A paper can contain several results, but it should not contain several competing stories.
+- A strong story is not a slogan; it must be supported by section sequence and figure sequence.
+
 ## Extraction Checklist
 
 For each manuscript or reference paper, answer only these questions:
@@ -90,6 +98,17 @@ Look for:
 - Figures are ordered by workflow convenience rather than argument function.
 - Final claim is broader than the evidence or target journal allows.
 - SI-worthy technical details compete with the main-text story.
+
+## Failure Signals
+
+The manuscript likely needs Story Architect if:
+
+- Abstract emphasizes a method, but Discussion emphasizes an application.
+- Introduction gap is about one problem, but Results mainly answer another.
+- Each figure can be explained alone, but the figure sequence has no cumulative logic.
+- A new metric appears as a product, not as the answer to a defined problem.
+- Results contain many values but no controlling mechanism.
+- SI-level method details are needed to understand the main claim.
 
 ## Rewrite Logic
 

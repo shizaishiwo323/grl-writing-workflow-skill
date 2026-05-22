@@ -34,7 +34,7 @@ Optional context:
 
 ## Procedure
 
-1. Check whether the central claim is clear.
+1. Check whether the manuscript has a clear Core Story, Central Scientific Question, Main Character, and Supporting Actors. If not, route to `story_architect`.
 2. Check whether OCAR movement is broken.
 3. Check whether Introduction promises are paid off in Results/Discussion, and whether major Results concepts have prior setup.
 4. Check whether Methods lack workflow, parameter, validation, or processing evidence.
@@ -46,6 +46,7 @@ Optional context:
 ## Forbidden Actions
 
 - Do not rewrite manuscript text.
+- Do not route past `story_architect` if the main character and supporting actors are unclear.
 - Do not route directly to sentence polishing unless storyline, OCAR, evidence, and paragraph function are stable.
 - Do not treat missing evidence as a style problem.
 - Do not treat missing promise-payoff structure as decorative transition wording.
