@@ -56,6 +56,25 @@ Look for:
 4. Move or delete details that belong to another paragraph.
 5. End with a sentence that returns to the paragraph function.
 
+## Paragraph-to-Paragraph Echo
+
+A strong Results paragraph should not stand alone.
+
+It should:
+
+1. inherit the previous paragraph's unresolved question;
+2. advance the mechanism by one clear step;
+3. prepare the next paragraph or subsection when the argument continues.
+
+Avoid isolated paragraphs that only describe one figure, one metric, or one phenomenon.
+
+When revising a paragraph, check:
+
+- Does this paragraph connect to the previous paragraph?
+- Does it create a logical need for the next paragraph?
+- Does it end with a mini-implication?
+- Is the paragraph part of a larger mechanism chain?
+
 ## Forbidden Patterns
 
 - One paragraph doing background, method, result, and implication at once.

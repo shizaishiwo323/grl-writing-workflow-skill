@@ -1,7 +1,6 @@
 ---
 name: grl-writing-workflow
-description: >-
-  Use for GRL-style scientific manuscript diagnosis and revision: workflow routing, OCAR/funnel structure, mechanism-centered results, methods evidence-chain, paragraph engineering, and sentence hierarchy. Trigger on requests like "看逻辑", "润色论文", "改Introduction", "改Results", "GRL风格", or mechanism-driven geoscience writing. Always diagnose manuscript stage before polishing sentences.
+description: Use when the user wants Codex to diagnose, plan, revise, or build prompts for GRL-style scientific manuscripts, especially mechanism-driven geoscience, reactive transport, porous media, hydrogeophysics, or NMR papers. Applies teacher-derived OCAR/funnel structure, storyline alignment, narrative echo and payoff, methods evidence-chain, mechanism-centered results, paragraph engineering, sentence hierarchy, revision-case mining, and prompt-building rules. Trigger on requests about 前后呼应, 铺垫与兑现, Introduction-Results alignment, Results subsection transitions, or mechanism-driven GRL writing. Always diagnose manuscript stage before polishing sentences.
 ---
 
 # GRL Writing Workflow
@@ -13,24 +12,20 @@ This skill is a scientific writing operating system, not a general polishing pro
 Always follow this order:
 
 ```text
-storyline > structure > mechanism > paragraph > sentence > word choice
+storyline > structure > narrative echo > mechanism > paragraph > sentence > word choice
 ```
 
 Do not perform sentence polishing when the central story, section function, or mechanism chain is still unstable. Start with diagnosis, then choose the smallest matching writing operation.
+
+This skill also checks narrative echo and payoff: whether Introduction promises are paid off in Results/Discussion, and whether Results subsections form a connected mechanism chain through forward pointers, backward links, delayed payoffs, and thread summaries.
 
 ## First Move
 
 Unless the user explicitly asks for one narrow operation, begin with `references/workflow_router.md` and, when prompt wording is needed, `references/workflow_router_prompt.md`.
 
-Use two labels during diagnosis:
-
-- Manuscript maturity stage: one of the five stages in `references/stage_model.md`.
-- Actionable routing label: the next writing problem to solve, such as `Storyline`, `OCAR`, `Methods Evidence`, `Mechanism Results`, `Paragraph`, or `Sentence`.
-
 Diagnose:
 
 - Current manuscript stage.
-- Next actionable writing problem.
 - Core contradiction: storyline, section structure, mechanism chain, paragraph flow, sentence hierarchy, or reviewer risk.
 - Which sub-skill files to use.
 - Which edits are currently forbidden.
@@ -47,7 +42,7 @@ Stage 2 Manuscript Architecture Design:
 Use `references/story_architect.md`, `references/ocar_funnel.md`, and `references/skill_hierarchy_map.md`. Output section functions, subsection sequence, figure sequence, and OCAR roles. Do not do grammar-level revision.
 
 Stage 3 Mechanism Construction:
-Use `references/mechanism_results.md`, `references/methods_evidence_chain.md`, and `references/paragraph_engineering.md`. Turn results from figure description into mechanism progression. Keep secondary metrics as support, not the protagonist.
+Use `references/narrative_echo_and_payoff.md`, `references/mechanism_results.md`, `references/methods_evidence_chain.md`, and `references/paragraph_engineering.md`. Turn results from isolated blocks into promise-payoff mechanism progression. Keep secondary metrics as support, not the protagonist.
 
 Stage 4 Reader Experience Optimization:
 Use `references/paragraph_engineering.md` and `references/sentence_hierarchy.md`. Improve topic sentences, transitions, information load, reader guidance, and claim calibration after the structure is stable.
@@ -74,6 +69,8 @@ Sub-skill designs:
 - `references/workflow_router.md`: stage diagnosis and routing.
 - `references/story_architect.md`: storyline, novelty, protagonist, supporting actors.
 - `references/ocar_funnel.md`: Opening, Challenge, Action, Resolution at manuscript, section, and paragraph levels.
+- `references/narrative_echo_and_payoff.md`: paper-level and Results-level promise-payoff relationships, including Introduction-Results alignment and subsection-to-subsection echo within Results and Discussion.
+- `references/cases_narrative_echo_and_payoff.md`: manuscript-derived examples for Introduction payoff, forward pointers, backward links, and thread summaries.
 - `references/methods_evidence_chain.md`: methods as evidence logic, not technical display.
 - `references/mechanism_results.md`: results as physical mechanism progression.
 - `references/paragraph_engineering.md`: topic sentence, evidence order, mini-implication.
@@ -94,15 +91,12 @@ Prompt and test materials:
 - `references/skill_specific_checklists.md`: sub-skill-specific checks.
 - `references/small_scale_testing_plan.md`: testing protocol for prompt behavior.
 
-Execution priority: when revising or generating an answer, load the relevant `*_prompt.md` file first, then use the corresponding design `.md` file as supporting rationale. For example, use `references/mechanism_results_prompt.md` before `references/mechanism_results.md`.
-
 ## Output Contract
 
 For diagnosis tasks, output:
 
 ```text
-Manuscript maturity stage:
-Actionable routing label:
+Current stage:
 Core contradiction:
 Recommended sub-skills:
 Currently forbidden:

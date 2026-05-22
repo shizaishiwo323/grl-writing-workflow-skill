@@ -12,7 +12,7 @@ Use three kinds of text:
 
 ## Test Order
 
-Follow the priority defined in `SKILL.md`, `references/stage_model.md`, and `references/skill_hierarchy_map.md`:
+Follow the priority in `临时.md`:
 
 1. Test `workflow_router_prompt.md` on one Introduction paragraph, one Methods paragraph, and one Results paragraph.
 2. Test `mechanism_results_prompt.md` on one Results paragraph that originally described spectra or tortuosity.
@@ -21,6 +21,40 @@ Follow the priority defined in `SKILL.md`, `references/stage_model.md`, and `ref
 5. Test `ocar_funnel_prompt.md` on Abstract or Introduction.
 6. Test `methods_evidence_chain_prompt.md` on the RTM or NMR Methods paragraph.
 7. Test `story_architect_prompt.md` on title + abstract + introduction.
+
+## Narrative Echo Tests
+
+Test 1: Introduction promise without payoff
+
+Input:
+An Introduction emphasizes a concept that never appears in Results.
+
+Expected output:
+Identify the orphan promise and suggest deletion, merging, or adding a Results payoff.
+
+Test 2: Result without foreshadowing
+
+Input:
+A Results section introduces a major metric suddenly.
+
+Expected output:
+Suggest a short foreshadowing sentence in Introduction or the previous Results subsection.
+
+Test 3: Weak Results subsection transition
+
+Input:
+Section 3.1 ends abruptly and Section 3.2 begins as an unrelated result.
+
+Expected output:
+Suggest one forward pointer at the end of 3.1 and one backward link at the beginning of 3.2.
+
+Test 4: Missing thread summary
+
+Input:
+Several Results subsections each describe useful findings, but no sentence connects them.
+
+Expected output:
+Suggest a 1-2 sentence thread summary that turns the results into a mechanism chain.
 
 ## Test Record Template
 

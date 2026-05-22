@@ -36,16 +36,19 @@ Optional context:
 
 1. Check whether the central claim is clear.
 2. Check whether OCAR movement is broken.
-3. Check whether Methods lack workflow, parameter, validation, or processing evidence.
-4. Check whether Results describe figures without mechanisms.
-5. Check whether paragraph function is unclear.
-6. Check whether the only remaining problem is sentence-level wording.
+3. Check whether Introduction promises are paid off in Results/Discussion, and whether major Results concepts have prior setup.
+4. Check whether Methods lack workflow, parameter, validation, or processing evidence.
+5. Check whether Results describe figures without mechanisms.
+6. Check whether Results subsections connect through forward pointers, backward links, delayed payoffs, and thread summaries.
+7. Check whether paragraph function is unclear.
+8. Check whether the only remaining problem is sentence-level wording.
 
 ## Forbidden Actions
 
 - Do not rewrite manuscript text.
 - Do not route directly to sentence polishing unless storyline, OCAR, evidence, and paragraph function are stable.
 - Do not treat missing evidence as a style problem.
+- Do not treat missing promise-payoff structure as decorative transition wording.
 - Do not call all skills by default.
 
 ## Output Format

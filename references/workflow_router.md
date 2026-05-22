@@ -12,17 +12,12 @@ Diagnose the manuscript's current editing stage before choosing any writing skil
 
 ## Output
 
-- Manuscript maturity stage: one of the five stages defined in `stage_model.md`.
-- Actionable routing label: `Storyline`, `OCAR`, `Methods Evidence`, `Mechanism Results`, `Paragraph`, or `Sentence`.
+- Manuscript stage diagnosis: `Storyline`, `OCAR`, `Methods Evidence`, `Mechanism Results`, `Paragraph`, or `Sentence`.
 - Primary skill to call next.
 - Secondary skill if needed.
 - One-sentence reason for routing.
 - What not to do yet.
 - Do not rewrite prose unless explicitly asked after routing.
-
-## Terminology
-
-The five-stage model describes manuscript maturity. Router labels describe the next actionable writing problem. For example, a draft may be in `Stage 3: Mechanism Construction` while the immediate routing label is `Mechanism Results` or `Paragraph`.
 
 ## When to Call / When Not to Call
 
@@ -51,18 +46,41 @@ Use this order:
 
 1. If the paper cannot be summarized in one mechanism-centered sentence, route to `story_architect`.
 2. If the paper has a central claim but Opening, Challenge, Action, or Resolution is weak, route to `ocar_funnel`.
-3. If Methods do not show input-output coupling, parameter controls, validation, or processing consistency, route to `methods_evidence_chain`.
-4. If Results describe figures but do not explain mechanisms, route to `mechanism_results`.
-5. If paragraph functions are unclear, route to `paragraph_engineering`.
-6. If logic is stable but wording is clumsy, route to `sentence_hierarchy`.
+3. If Introduction promises are not paid off in Results/Discussion, or major Results concepts appear without setup, route to `narrative_echo_and_payoff`.
+4. If Methods do not show input-output coupling, parameter controls, validation, or processing consistency, route to `methods_evidence_chain`.
+5. If Results describe figures but do not explain mechanisms, route to `mechanism_results`.
+6. If Results subsections read as parallel blocks without forward pointers, backward links, delayed payoffs, or thread summaries, route to `narrative_echo_and_payoff`, usually with `mechanism_results` or `paragraph_engineering`.
+7. If paragraph functions are unclear, route to `paragraph_engineering`.
+8. If logic is stable but wording is clumsy, route to `sentence_hierarchy`.
+
+## Trigger: Narrative Echo And Payoff
+
+Use `references/narrative_echo_and_payoff.md` when the user asks about:
+
+- 前后呼应
+- 铺垫与兑现
+- 提前引入
+- 后文再讨论
+- 承上启下
+- Results 小节之间的衔接
+- 小节结尾总结
+- 把几个结果串成一条线
+- Introduction 是否为 Results 做铺垫
+- Results 是否回应 Introduction 的 gap
+- 某个指标是否出现得太突然
+
+Routing logic:
+
+- If the issue occurs across Introduction, Results, and Discussion, route to `story_architect`, `ocar_funnel`, and `narrative_echo_and_payoff`.
+- If the issue occurs within Results and Discussion subsections, route to `mechanism_results`, `narrative_echo_and_payoff`, and `paragraph_engineering`.
+- Do not treat intra-Results echo as only sentence polishing.
 
 ## Rewrite Logic
 
 Do not rewrite. Produce routing only:
 
 ```text
-Manuscript maturity stage:
-Actionable routing label:
+Stage:
 Primary skill:
 Secondary skill:
 Reason:
@@ -76,6 +94,7 @@ Do not do yet:
 - Do not route every request to `sentence_hierarchy`.
 - Do not treat missing evidence as a wording problem.
 - Do not call a method problem a "style" problem.
+- Do not treat missing promise-payoff structure as a request for decorative transition sentences.
 
 ## Example Cases
 

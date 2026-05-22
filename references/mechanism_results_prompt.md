@@ -38,7 +38,8 @@ Optional literature context:
 2. Identify the physical mechanism behind the pattern.
 3. Connect the mechanism to the central claim.
 4. Keep numerical values only where they support the mechanism.
-5. End with a mechanism takeaway, not a figure description.
+5. Check whether the paragraph or subsection inherits from a previous result and prepares a later result when needed.
+6. End with a mechanism takeaway, not a figure description.
 
 ## Forbidden Actions
 
@@ -46,6 +47,7 @@ Optional literature context:
 - Do not add unsupported mechanisms.
 - Do not add broad literature unless it clarifies the current result's contribution.
 - Do not polish wording while leaving the mechanism unclear.
+- Do not leave Results subsections as isolated blocks when the mechanism chain requires a forward pointer, backward link, delayed payoff, or thread summary.
 
 ## Output Format
 
@@ -81,3 +83,4 @@ This transient bimodality followed by rapid peak merging indicates that channeli
 - Does the revision explain what the observation means physically?
 - Does it connect signal evolution to flow, coupling, conduit formation, or breakthrough?
 - Does the paragraph end with a scientific judgment?
+- Does it preserve or add the needed promise-payoff link to surrounding Results subsections?

@@ -13,6 +13,16 @@
 - Does it connect mechanism to the central claim?
 - Does it avoid pure figure description?
 - Does it end with a scientific takeaway?
+- Does it avoid treating Results subsections as isolated blocks?
+- Does it add a forward pointer, backward link, delayed payoff, or thread summary when the mechanism chain needs one?
+
+## narrative_echo_and_payoff
+
+- Does it identify unmatched Introduction promises?
+- Does it identify major Results concepts that appear without setup?
+- Does it distinguish paper-level echo from Results-level echo?
+- Does it recommend forward pointers, backward links, delayed payoffs, or thread summaries only where they serve the mechanism chain?
+- Does it avoid treating echo as decorative transition polishing?
 
 ## paragraph_engineering
 
@@ -20,6 +30,7 @@
 - Does it repair the topic sentence?
 - Does it identify what to keep, move, delete, or compress?
 - Does the revised paragraph end on the same function it began with?
+- Does it check whether the paragraph inherits, advances, or prepares part of the surrounding mechanism chain?
 
 ## sentence_hierarchy
 
@@ -48,4 +59,3 @@
 - Does it identify drift across title, abstract, introduction, methods, and results?
 - Does it avoid sentence-level polishing?
 - Does it calibrate the story to available evidence?
-

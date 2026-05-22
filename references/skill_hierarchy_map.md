@@ -1,6 +1,6 @@
 # Skill Hierarchy Map
 
-Source principles: `principles.md`
+Source principles: `../02_principle_extraction/principles.md`
 
 This is the Phase 3 skill architecture. It translates the principle library into modular, AI-callable writing skills, but it does not yet provide final prompt templates. Prompt engineering belongs to Phase 4.
 
@@ -21,7 +21,11 @@ Actual routing is determined by `workflow_router.md`; skills do not need to be c
    repair Opening, Challenge, Action, Resolution movement
         |
         v
-3. methods_evidence_chain
+3. narrative_echo_and_payoff
+   check promise-payoff links across the paper and within Results
+        |
+        v
+3.5. methods_evidence_chain
    align workflow, parameters, processing, validation
         |
         v
@@ -44,6 +48,7 @@ Actual routing is determined by `workflow_router.md`; skills do not need to be c
 | `workflow_router.md` | Manuscript-stage diagnosis and task routing | Rewriting actual prose |
 | `story_architect.md` | Whole-paper storyline and central claim | Sentence polishing |
 | `ocar_funnel.md` | Section-level OCAR structure | Detailed method reproducibility |
+| `narrative_echo_and_payoff.md` | Introduction-Results payoff and Results subsection echo | Decorative transition polishing |
 | `methods_evidence_chain.md` | Method workflow, parameters, validation, processing control | Results interpretation |
 | `mechanism_results.md` | Result-to-mechanism interpretation | General background writing |
 | `paragraph_engineering.md` | Paragraph topic sentence, evidence order, local coherence | Whole-paper architecture |
@@ -57,6 +62,8 @@ Skills based on high-frequency principles should be prioritized:
 2. `paragraph_engineering.md`: `topic_sentence_insertion`, `reader_guidance`
 3. `story_architect.md` and `ocar_funnel.md`: `storyline_alignment`, `funnel_narrowing`
 4. `methods_evidence_chain.md`: `method_reproducibility`
+
+Use `narrative_echo_and_payoff.md` as a conservative Skill 3 between OCAR and mechanism construction: it is broader than a paragraph transition, but should not become a standalone claim-making skill.
 
 Emerging principles should be used carefully:
 

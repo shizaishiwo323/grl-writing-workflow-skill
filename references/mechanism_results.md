@@ -63,6 +63,26 @@ Preferred form:
 [Observed signal/pathway] indicates [mechanism], because [physical reason], leading to [consequence].
 ```
 
+## Results Echo Requirement
+
+Results subsections should not read as independent result blocks.
+
+Each subsection should do at least one of the following:
+
+1. inherit a question from the previous subsection;
+2. prepare a later mechanism;
+3. test a previous interpretation;
+4. quantify a previously described pattern;
+5. synthesize earlier findings into the next step of the mechanism chain.
+
+Before revising a Results subsection, check:
+
+- What previous result does this subsection build on?
+- What later result does this subsection prepare?
+- Does the opening sentence include a backward link when needed?
+- Does the ending sentence include a forward pointer when needed?
+- Does the subsection end with a mechanism-oriented mini-summary rather than only data?
+
 ## Forbidden Patterns
 
 - Pure chronological figure description.

@@ -39,7 +39,8 @@ Central claim:
 2. Write or repair the topic sentence.
 3. Order evidence from central to supporting.
 4. Move or delete side details.
-5. End with a sentence that returns to the paragraph function.
+5. Check whether the paragraph inherits from the previous paragraph and prepares the next paragraph when the argument continues.
+6. End with a sentence that returns to the paragraph function and, when needed, provides a mini-implication.
 
 ## Forbidden Actions
 
@@ -47,6 +48,7 @@ Central claim:
 - Do not retain correct but low-function details.
 - Do not perform only sentence polish if paragraph function is broken.
 - Do not introduce a new topic in the final sentence.
+- Do not treat a paragraph as self-contained when it belongs to a larger mechanism chain.
 
 ## Output Format
 
@@ -83,3 +85,4 @@ Flow field tortuosity \\tau is defined based on velocity ratios (Text S3) and pr
 - Is the paragraph's function explicit in the first sentence?
 - Does every detail support that function?
 - Does the final sentence return to the same function?
+- Does the paragraph connect to the surrounding paragraph sequence when needed?

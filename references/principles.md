@@ -4,7 +4,7 @@ Source: `../01_modification_mining/modification_database.xlsx`
 
 This library is abstracted from the current 60-record modification database. It should be treated as the first principle layer, not the final skill implementation.
 
-Revision note: this file keeps the original 12 principles, then applies later refinements: evidence strength, method sub-principles, and a workflow-level meta principle before Phase 3.
+Revision note: this file keeps the original 12 principles, then applies the lightweight changes requested in `临时.md`: evidence strength, method sub-principles, and a workflow-level meta principle before Phase 3.
 
 ## Contents
 

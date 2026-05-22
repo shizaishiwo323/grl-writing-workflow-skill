@@ -24,6 +24,25 @@ Use this checklist for every Phase 4 prompt test.
 - Does it reduce unnecessary detail?
 - Does it preserve concise GRL-style movement?
 
+## Narrative Echo And Payoff
+
+Paper-level echo:
+
+- Does the Introduction prepare every major Results concept?
+- Does each major Introduction promise receive a payoff in Results/Discussion?
+- Are there Introduction claims that never return later?
+- Are there Results findings that appear without prior motivation?
+- Does the Discussion return to the original gap and broader significance?
+
+Results-level echo:
+
+- Does each Results subsection inherit from the previous one?
+- Does each subsection prepare the next analytical step?
+- Are forward pointers used before delayed explanation or quantification?
+- Are backward links used when a new subsection begins?
+- Are thread summaries used to connect multiple findings into one mechanism chain?
+- Does the final Results subsection synthesize the previous results rather than introduce an isolated new point?
+
 ## Claim Control
 
 - Are claims bounded by evidence?
