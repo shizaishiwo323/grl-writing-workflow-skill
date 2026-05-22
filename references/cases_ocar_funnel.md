@@ -7,18 +7,41 @@ and finally to a usable scientific resolution.
 
 ## Case Index
 
+### Self Manuscript Cases
+
 - OCAR-SELF-001: Current manuscript abstract funnel.
 - OCAR-SELF-002: Current manuscript introduction funnel.
 - OCAR-SELF-003: Current manuscript methods opening funnel.
 - OCAR-SELF-004: Current manuscript results opening funnel.
+
+### Empirical-Parameter / Mechanism Cases
+
 - OCAR-REF-2018-A: Archie porosity exponent abstract funnel.
 - OCAR-REF-2018-I: Archie porosity exponent introduction funnel.
+
+### Metric-Building Cases
+
 - OCAR-REF-2024-A: Spatial flow focusing profile abstract funnel.
 - OCAR-REF-2024-I: Spatial flow focusing profile introduction funnel.
+
+### Nested-Funnel / Coupled-Process Cases
+
 - OCAR-REF-2025-A: Dissolution and anomalous transport abstract funnel.
 - OCAR-REF-2025-I: Dissolution and anomalous transport introduction funnel.
+
+### Method-Extension Cases
+
 - OCAR-REF-2026-A: Unsaturated pore coupling abstract funnel.
 - OCAR-REF-2026-I: Unsaturated pore coupling introduction funnel.
+
+## How to Use This File
+
+- Use Abstract cases when diagnosing whether a manuscript has a compact OCAR arc.
+- Use Introduction cases when diagnosing broad-to-specific narrowing.
+- Use Methods opening cases when methods appear as technical display rather than evidence logic.
+- Use Results opening cases when Results begins as a parameter or figure inventory.
+- Use metric-building cases when a new metric appears without sufficient motivation.
+- Use method-extension cases when a familiar method is applied to a harder physical condition.
 
 ## Extraction Template
 

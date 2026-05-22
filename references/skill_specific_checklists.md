@@ -49,6 +49,8 @@
 - Does the funnel narrow from broad process to specific gap?
 - Are technical details introduced only after their function is clear?
 - Is there a nested funnel if the method itself also has an interpretive limitation?
+- If a new metric appears, has a metric-building funnel explained why visual, global, or bulk descriptors are insufficient?
+- If a familiar method is applied to a harder condition, has a method-extension funnel explained what physical complication makes the application nontrivial?
 - Are premature details removed or moved?
 - Does the Action directly answer the Challenge?
 

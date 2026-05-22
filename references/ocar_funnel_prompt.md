@@ -38,7 +38,8 @@ Main result or implication:
 2. Identify the Challenge as a process-based missing link.
 3. Identify the Action as what the study tests, builds, or compares.
 4. Identify the Resolution as what the results reveal or enable.
-5. Remove premature detail that interrupts the funnel.
+5. Select the closest OCAR pattern type from `references/cases_ocar_funnel.md` when useful: single funnel, nested funnel, metric-building funnel, method-necessity funnel, results-orientation funnel, or method-extension funnel.
+6. Remove premature detail that interrupts the funnel.
 
 ## Forbidden Actions
 
@@ -55,11 +56,14 @@ Opening:
 Challenge:
 Action:
 Resolution:
+Closest Reference Pattern:
 Premature Details:
 Revised Skeleton:
 ```
 
 ## Example Case
+
+For reference cases by target section and pattern type, use `references/cases_ocar_funnel.md`.
 
 Case ID: I-001
 
