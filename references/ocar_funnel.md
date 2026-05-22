@@ -49,6 +49,14 @@ Check whether:
 - Resolution states what the results reveal and how readers can use it.
 - Details appear before readers know why they matter.
 
+When a text matches a specialized situation, use `references/cases_ocar_funnel.md` to choose the closest reference pattern before rewriting:
+
+- `metric-building funnel`: a new index or metric appears without motivation.
+- `method-extension funnel`: a familiar method is applied to a harder physical condition.
+- `method-necessity funnel`: a Methods opening reads as technical display rather than evidence logic.
+- `results-orientation funnel`: a Results opening reads as a parameter or figure inventory.
+- `nested funnel`: the field-level gap and method-level limitation both need to be stated.
+
 ## Rewrite Logic
 
 1. Compress broad background to one process-first sentence.

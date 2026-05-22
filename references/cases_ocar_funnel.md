@@ -51,6 +51,9 @@ and finally to a usable scientific resolution.
 ### Source
 Paper title / journal / year / position
 
+### Source Location
+Abstract sentence range / Introduction paragraph range / section opening position
+
 ### Target Section
 Abstract / Introduction / Methods opening / Results opening / Paragraph
 
