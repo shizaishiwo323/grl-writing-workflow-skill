@@ -4,6 +4,8 @@
 
 Repair section-level OCAR movement: Opening, Challenge, Action, Resolution. Use this especially for Abstract and Introduction.
 
+OCAR can operate at multiple scales: Abstract, Introduction, Methods opening, Results opening, subsection opening, and paragraph. Do not restrict OCAR to the Introduction only.
+
 ## Input
 
 - Abstract, Introduction, section opening, or paragraph sequence.
@@ -63,6 +65,8 @@ Check whether:
 - Ending the Introduction with a method list but no contribution sentence.
 
 ## Example Cases
+
+For reference-paper examples, see `references/cases_ocar_funnel.md`.
 
 Case ID: I-001
 

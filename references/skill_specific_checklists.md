@@ -42,7 +42,13 @@
 ## ocar_funnel
 
 - Does it identify Opening, Challenge, Action, and Resolution?
-- Is the Challenge process-based?
+- Does the Opening begin with a process and consequence rather than a list?
+- Does the Challenge define a missing process-based link?
+- Does the Action explain why this study's method is necessary?
+- Does the Resolution state what the reader learns or can use?
+- Does the funnel narrow from broad process to specific gap?
+- Are technical details introduced only after their function is clear?
+- Is there a nested funnel if the method itself also has an interpretive limitation?
 - Are premature details removed or moved?
 - Does the Action directly answer the Challenge?
 

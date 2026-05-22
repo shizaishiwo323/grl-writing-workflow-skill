@@ -33,7 +33,7 @@ Target journal:
 - Potential Distractions.
 - Section-Level Storyline.
 - Figure Sequence Logic.
-- Next writing operation.
+- Recommended Skill Routing.
 
 ## Procedure
 
@@ -44,7 +44,7 @@ Target journal:
 5. Identify potential distractions that should be downgraded or moved to SI.
 6. Check whether the section sequence supports one story.
 7. Check whether the figure sequence moves from framework or concept, to core observation, to mechanism, quantification, or implication.
-8. Recommend the next writing operation: OCAR, narrative echo, methods evidence, mechanism results, paragraph, or sentence.
+8. Recommend the next skill routing: stay in Story Architect, OCAR / Funnel Structure, Section-Level Writing Logic, narrative echo, methods evidence, mechanism results, paragraph, or sentence.
 
 ## Do Not Confuse
 
@@ -83,7 +83,7 @@ Potential Distractions:
 Section-Level Storyline:
 Figure Sequence Logic:
 Transferable Rule:
-Next Writing Operation:
+Recommended Skill Routing:
 Do Not Do Yet:
 ```
 

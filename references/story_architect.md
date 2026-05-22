@@ -1,4 +1,4 @@
-# story_architect
+# Scientific Story Architect
 
 ## Skill Objective
 
@@ -21,6 +21,7 @@ Use `references/cases_story_architect.md` for concrete examples from high-qualit
 - Section-Level Storyline table.
 - Figure Sequence Logic table.
 - Transferable Rule for similar manuscripts.
+- Recommended Skill Routing.
 
 ## When to Call / When Not to Call
 
@@ -149,7 +150,13 @@ We show/test how [measurable signal] tracks [physical process] by revealing [mec
 
 ## Transferable Rule
 
-## Next Writing Operation
+## Recommended Skill Routing
+
+- If the core story is unclear: stay in Story Architect.
+- If the story is clear but Introduction does not narrow well: call OCAR / Funnel Structure.
+- If the story is clear but section roles are weak: call Section-Level Writing Logic.
+- If the story is clear but Results read descriptively: call Mechanism-Centered Results Writer.
+- If the story and mechanism are clear but readability is weak: call Paragraph Engineering or Sentence Hierarchy.
 ```
 
 ## Forbidden Patterns
