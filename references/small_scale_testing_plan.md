@@ -127,6 +127,47 @@ Flow-field tortuosity decreases with increasing porosity in all simulations.
 Expected behavior:
 Detect missing backward link and suggest linking regime-specific T2 pathways to independent hydraulic validation by tortuosity.
 
+## Mechanism Results Tests
+
+Use `references/mechanism_results_prompt.md`, `references/mechanism_results.md`, and `references/cases_mechanism_centered_results.md`.
+
+Expected diagnostic output:
+
+```text
+Diagnosis:
+Closest MCR Case:
+Mechanism-Writing Type:
+Observation -> Mechanism Map:
+Weak Links:
+Revision:
+Takeaway:
+Evidence Still Needed:
+```
+
+Test MCR-001: Signal feature jumps to breakthrough
+
+Input:
+A Results sentence states that transient T2 bimodality indicates early permeability breakthrough, but does not explain peak merging, conduit formation, or pore coupling.
+
+Expected output:
+Identify the missing intermediate structural process and cite `MCR-SELF-003`.
+
+Test MCR-002: Secondary metric as isolated result
+
+Input:
+A tortuosity paragraph reports decreases in tortuosity across regimes without stating that tortuosity validates the T2-derived flow-path interpretation.
+
+Expected output:
+Reposition tortuosity as independent hydraulic validation and cite `MCR-SELF-004`.
+
+Test MCR-003: New metric without mechanism need
+
+Input:
+A Results subsection introduces MVC immediately after the porosity-permeability plot, without explaining what distinction the plot cannot resolve.
+
+Expected output:
+Add the missing bridge from macroscopic breakthrough hierarchy to matrix-vug coupling and cite `MCR-SELF-005`.
+
 ## Test Record Template
 
 ```text

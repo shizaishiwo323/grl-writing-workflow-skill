@@ -118,9 +118,10 @@ Load the case library especially for these patterns:
 
 ## Example Cases
 
-Case ID: R-008
+Case ID: MCR-SELF-003
 
-Source Principle: P6
+Mechanism-Writing Type:
+Breakthrough mechanism / Structure-to-signal / Regime comparison
 
 Before: `This transient bimodality indicates that channeling achieves early permeability breakthrough with limited matrix dissolution.`
 

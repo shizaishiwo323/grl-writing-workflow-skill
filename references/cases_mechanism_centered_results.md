@@ -266,6 +266,9 @@ metric_validation; mechanism_before_data; evidence_hierarchy
 ### Context
 The paper needs to explain why Archie's exponent varies among granular materials instead of treating it as an empirical fitting constant.
 
+### Typical Failure Pattern
+A metric trend is reported as an empirical dependence without first anchoring it to a limiting theory or baseline physical control.
+
 ### Result Observation
 At dilute states, simulated porosity exponents follow the same trend predicted by differential effective medium theory as particle shape changes.
 
@@ -297,6 +300,9 @@ regime_comparison; transition_explanation; evidence_hierarchy
 
 ### Context
 Previous theory and experiments disagree about whether particle size range affects Archie's exponent.
+
+### Typical Failure Pattern
+A draft presents disagreement with previous work as a conflict, but does not identify the sample state or assumption that changes the mechanism.
 
 ### Result Observation
 Multisized and monosized samples with the same particle shape behave similarly at dilute states, but diverge as porosity decreases and the samples become nondilute.
@@ -330,6 +336,9 @@ structure_to_signal; causal_chain; metric_validation
 ### Context
 The paper has shown that Archie's exponent increases during compaction, but the physical cause still needs pore-scale explanation.
 
+### Typical Failure Pattern
+A bulk geophysical metric changes with porosity, but the paragraph does not explain the pore-scale field redistribution responsible for the change.
+
 ### Result Observation
 As porosity decreases, the local electric-field intensity distribution becomes more heterogeneous, with high-intensity regions increasingly concentrated near pore throats.
 
@@ -361,6 +370,9 @@ metric_validation; regime_comparison; avoid_figure_description
 
 ### Context
 The paper argues that dissolution regimes cannot be reliably distinguished by visual pattern comparison alone.
+
+### Typical Failure Pattern
+A new metric is introduced as a descriptive index without first naming the limitation of visual regime classification.
 
 ### Result Observation
 The flow focusing profile decreases during uniform dissolution, develops a moving transition during wormholing, and increases across the system during channeling.
@@ -394,6 +406,9 @@ regime_comparison; transition_explanation; causal_chain
 ### Context
 Channeling and wormholing can produce visually similar connected pathways, so the Results must explain how their histories differ.
 
+### Typical Failure Pattern
+Regimes are compared by final morphology only, so channeling and wormholing sound visually similar rather than mechanistically distinct.
+
 ### Result Observation
 Wormholing shows a profile transition that advances from inlet to outlet, whereas channeling shows a more uniform profile increase along preexisting pathways across the whole system.
 
@@ -425,6 +440,9 @@ breakthrough_mechanism; causal_chain; evidence_hierarchy
 
 ### Context
 The paper must explain why wormholing changes solute transport from Fickian to non-Fickian and why the BTC develops early arrival, a plateau, and late tailing.
+
+### Typical Failure Pattern
+Breakthrough-curve features such as early arrival, plateau, or tailing are named but not assigned to physical transport zones or pathways.
 
 ### Result Observation
 During wormholing, the BTC evolves from a narrow distribution to one with early arrival, plateau-like behavior, and a long tail.
@@ -458,6 +476,9 @@ observation_to_mechanism; regime_comparison; causal_chain
 ### Context
 The paper contrasts wormholing-induced heterogeneity with uniform-dissolution-induced homogenization.
 
+### Typical Failure Pattern
+The draft says dissolution homogenizes the system or reduces tailing, but does not explain the pore-growth process that removes heterogeneity.
+
 ### Result Observation
 Under uniform dissolution, initially broad BTCs narrow, tailing weakens, velocity distributions become narrower, and the system transitions toward Fickian transport.
 
@@ -489,6 +510,9 @@ mini_synthesis; regime_comparison; evidence_hierarchy
 
 ### Context
 After detailed mechanism sections for wormholing and uniform dissolution, the paper must generalize across initial heterogeneity and reaction-transport conditions.
+
+### Typical Failure Pattern
+A phase diagram is presented as a classification result without reusing the mechanisms established in the representative cases.
 
 ### Result Observation
 The phase diagram contains persistent Fickian, non-Fickian to Fickian, Fickian to non-Fickian, and persistent non-Fickian outcomes.
@@ -522,6 +546,9 @@ structure_to_signal; observation_to_mechanism; causal_chain
 ### Context
 The paper needs to show how NMR responses reveal pore coupling changes during desaturation.
 
+### Typical Failure Pattern
+T2 peak separation is interpreted only as apparent pore-size change, while saturation-dependent coupling and exchange are left unstated.
+
 ### Result Observation
 As saturation decreases, long-relaxation components weaken or disappear and the main T2 peaks become more separated.
 
@@ -553,6 +580,9 @@ metric_validation; structure_to_signal; mini_synthesis
 
 ### Context
 After T2 peak separation suggests weaker pore coupling, the paper needs quantitative and geometric evidence for why coupling weakens.
+
+### Typical Failure Pattern
+Signal metrics and structural metrics are listed in parallel, but the draft does not clarify which metric diagnoses coupling and which metric explains its geometric cause.
 
 ### Result Observation
 The off-diagonal exchange amplitude in T2-store-T2 maps decreases with saturation, the renormalized coupling parameter increases, water-pathway tortuosity rises, and connectivity ratio eventually drops sharply.
