@@ -31,10 +31,12 @@ Expected diagnostic output:
 
 ```text
 Current echo problem:
+Echo level:
 Echo type:
-Missing setup/payoff:
-Suggested minimal fix:
+Missing setup or payoff:
 Relevant case ID:
+Minimal fix:
+Suggested sentence:
 Boundary behavior:
 ```
 

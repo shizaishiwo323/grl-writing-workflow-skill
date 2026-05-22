@@ -43,10 +43,12 @@ Relevant earlier/later section:
 ## Output
 
 - Current echo problem.
+- Echo level.
 - Echo type.
 - Missing setup or missing payoff.
-- Suggested minimal fix.
 - Relevant case ID.
+- Minimal fix.
+- Suggested sentence, when a sentence-level insertion is the right minimal fix.
 - Boundary behavior.
 
 ## Procedure
@@ -72,10 +74,12 @@ Relevant earlier/later section:
 
 ```text
 Current echo problem:
+Echo level:
 Echo type:
-Missing setup/payoff:
-Suggested minimal fix:
+Missing setup or payoff:
 Relevant case ID:
+Minimal fix:
+Suggested sentence:
 Boundary behavior:
 ```
 
@@ -88,10 +92,12 @@ Expected output:
 
 ```text
 Current echo problem: The transition from signal interpretation to hydraulic validation is under-signaled.
+Echo level: Results-level echo.
 Echo type: Missing backward link.
-Missing setup/payoff: Section 3.2 should inherit the T2 pathway interpretation and state that tortuosity tests whether spectral coupling corresponds to flow-path optimization.
-Suggested minimal fix: Add one opening sentence to Section 3.2 linking regime-specific T2 pathways to independent hydraulic validation.
+Missing setup or payoff: Section 3.2 should inherit the T2 pathway interpretation and state that tortuosity tests whether spectral coupling corresponds to flow-path optimization.
 Relevant case ID: NEP-SELF-003.
+Minimal fix: Add one opening sentence to Section 3.2 linking regime-specific T2 pathways to independent hydraulic validation.
+Suggested sentence: Building on the regime-specific T2 pathways identified above, we next test whether these spectral differences correspond to independent hydraulic reorganization.
 Boundary behavior: Stay at structure/transition diagnosis; do not polish the full tortuosity paragraph yet.
 ```
 

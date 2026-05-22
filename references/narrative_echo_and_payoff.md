@@ -162,6 +162,29 @@ Minimal fix: Remove or downgrade the orphan content, or add a real payoff where 
 - Delete or downgrade Introduction content that is never used later.
 - Add a brief foreshadowing phrase in Introduction or the preceding Results subsection if a major Results concept appears suddenly.
 
+## Output Format
+
+When this module is used for diagnosis, output:
+
+```text
+Current echo problem:
+Echo level:
+Echo type:
+Missing setup or payoff:
+Relevant case ID:
+Minimal fix:
+Suggested sentence:
+Boundary behavior:
+```
+
+Keep the suggested sentence optional when the needed fix is deletion, downgrading, or moving content rather than adding a sentence.
+
+## Module Status
+
+Narrative Echo and Payoff v1.0: ready for testing.
+
+Next action: test with 2-3 small fragments before adding more cases or rewriting existing cases.
+
 ## Boundary Rule
 
 Do not treat narrative echo as decorative transition polishing. It is a structure-level test of whether the paper sets up, delays, pays off, and summarizes the scientific story.
