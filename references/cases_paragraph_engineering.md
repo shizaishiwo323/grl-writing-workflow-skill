@@ -4,7 +4,7 @@ Purpose: store paragraph-level writing-function cases that teach AI how a high-q
 
 Use this file when revising a paragraph that has useful scientific material but unclear paragraph function, weak opening sentence, disordered evidence, buried mechanism, weak paragraph-to-paragraph transition, or an ending that stops at data rather than returning to the argument.
 
-These cases are extracted from reference papers in `范例文章/`. Target paragraphs are summarized or lightly excerpted to preserve structure-function lessons rather than to create a sentence bank.
+These cases are extracted from reference papers in `范例文章/` and from the current manuscript revision history. Target paragraphs are summarized or lightly excerpted to preserve structure-function lessons rather than to create a sentence bank.
 
 ## Case Types
 1. Function-first topic sentence
@@ -16,6 +16,8 @@ These cases are extracted from reference papers in `范例文章/`. Target parag
 
 ## Case Index
 
+### Reference Paper Cases
+
 - PE-REF-2024-001: PE-TOPIC / Flow focusing profile opens by naming its diagnostic function.
 - PE-REF-2026-001: PE-TOPIC / Results opening assigns the integrated framework one task.
 - PE-REF-2024-002: PE-ORDER / Channeling paragraph orders visual contrast before metric behavior.
@@ -26,6 +28,12 @@ These cases are extracted from reference papers in `范例文章/`. Target parag
 - PE-REF-2026-003: PE-ECHO / T2 peak separation prepares quantitative exchange mapping.
 - PE-REF-2024-003: PE-END / Heterogeneity paragraph ends by upgrading metric value.
 - PE-REF-2025-003: PE-END / BTC comparison ends by turning curve shape into diagnostic inference.
+
+### Self Manuscript Cases
+
+- PE-SELF-001: PE-COMPRESS / Tortuosity details are compressed into hydraulic validation.
+- PE-SELF-002: PE-MECH / Channeling paragraph maps conduit growth to T2 merging and breakthrough.
+- PE-SELF-003: PE-END / MVC paragraph turns metric timing into breakthrough mechanism.
 
 ## Extraction Template
 
@@ -535,3 +543,144 @@ When comparing two similar-looking behaviors, end by naming the practical or int
 
 ### AI Instruction
 If a paragraph compares two mechanisms but stops at difference, add a final sentence that states what the difference lets the reader infer or decide.
+
+## Case PE-SELF-001: Tortuosity Details Are Compressed Into Hydraulic Validation
+
+### Source
+Current manuscript revision / Section 3.2, Tortuosity Evolution Across Dissolution Regimes / teacher-revised tortuosity opening and comparison paragraphs.
+
+### Case Type
+PE-COMPRESS.
+
+### Paragraph Function
+validate.
+
+### Target Skill Problem
+evidence overload; detail repositioning; secondary metric treated as an independent result.
+
+### Tags
+- paragraph_function: validate
+- problem_type: evidence_overload / secondary_metric_positioning
+- section: Results and Discussion
+- stage: Stage 3 / Stage 4
+- shared_with: mechanism_results / sentence_hierarchy
+
+### Previous Context
+Section 3.1 has already interpreted regime-specific T2 evolution as matrix-vug coupling and flow-path reorganization. The next metric should test that interpretation, not open a separate tortuosity story.
+
+### Target Paragraph
+The unrevised version spent substantial space on tortuosity anomalies, segment-wise maxima, and late-stage deceleration. The revised version first assigns tortuosity a validation function: it is an independent hydraulic reference for testing whether T2-derived spectral evolution reflects flow-path optimization. It keeps the global trend, the key timing contrast among regimes, and the breakthrough values, while moving detailed segment-wise evolution for non-central modes to Supporting Information.
+
+### Next Context
+The following paragraphs use porosity-permeability evolution and MVC to explain why similar tortuosity values can still produce different breakthrough timing.
+
+### Why This Paragraph Works
+The revision does not delete technical correctness for style. It changes the paragraph's function: tortuosity becomes supporting evidence for the NMR interpretation. Details that are correct but low-function are compressed or redirected so the main paragraph remains easy and pleasant to read.
+
+### Sentence-Level Function Map
+S1: assigns tortuosity the role of independent hydraulic validation.
+S2: gives the global decreasing trend and physical meaning.
+S3: highlights the face-dissolution exception only as needed for the mechanism.
+S4: compares channeling and wormholing through timing and breakthrough values.
+S5: returns to the validation claim: transient T2 evolution reflects hydraulically connected pathway reorganization.
+
+### Transferable Rule
+When a paragraph introduces a secondary metric, keep only the details that validate the central mechanism and move detailed metric behavior to SI or a later support paragraph.
+
+### AI Instruction
+If a draft paragraph is technically accurate but overloaded, identify its one function first. Keep details that serve that function, compress repeated numerical evidence, and move side analyses that belong to Supporting Information.
+
+## Case PE-SELF-002: Channeling Paragraph Maps Conduit Growth to T2 Merging and Breakthrough
+
+### Source
+Current manuscript / Section 3.1, T2 evolution of channeling regime.
+
+### Case Type
+PE-MECH.
+
+### Paragraph Function
+interpret.
+
+### Target Skill Problem
+observation-to-mechanism; signal feature jumps to breakthrough; mechanism buried.
+
+### Tags
+- paragraph_function: interpret
+- problem_type: mechanism_buried
+- section: Results and Discussion
+- stage: Stage 3
+- shared_with: mechanism_results / narrative_echo
+
+### Previous Context
+The preceding paragraphs have established face dissolution as persistent peak separation and wormholing as broad peak overlap. Channeling must be distinguished from both using a transient T2 pathway.
+
+### Target Paragraph
+The paragraph begins by positioning channeling as intermediate between face dissolution and wormholing. It then traces the mechanism sequence: an early principal channel penetrates the system, flow focuses into that pathway, velocity contrast with the matrix creates transient T2 bimodality, the principal pathway expands along its full length, diffusive exchange across both flanks strengthens, pore coupling increases, the spectrum merges toward the long-relaxation peak, and breakthrough occurs shortly after the displayed 50% stage.
+
+### Next Context
+The next synthesis paragraph compares all three regimes as distinct matrix-vug exchange pathways before the paper moves to tortuosity validation.
+
+### Why This Paragraph Works
+The paragraph does not treat transient bimodality as a label. It explains what physical state the transient signal sits between and why rapid peak merging corresponds to efficient conduit formation with limited matrix dissolution.
+
+### Sentence-Level Function Map
+S1: comparison topic: channeling is intermediate between face dissolution and wormholing.
+S2: structural observation: a principal channel penetrates early.
+S3: signal observation: flow focusing and velocity contrast create transient T2 bimodality.
+S4: mechanism: full-length channel enlargement alters the flow field.
+S5: coupling explanation: diffusive exchange on both flanks strengthens pore coupling.
+S6: evidence: vug fraction, matrix fraction, and peak center changes quantify the shift.
+S7: mini-implication: transient bimodality followed by merging explains early breakthrough.
+
+### Transferable Rule
+For a transient signal paragraph, define the physical transition that the signal marks and connect that transition to the hydraulic outcome.
+
+### AI Instruction
+If a draft says a signal is "transient," force it to answer: transient between which two physical states, what mechanism changes the signal, and why that matters for breakthrough or regime distinction.
+
+## Case PE-SELF-003: MVC Paragraph Turns Metric Timing Into Breakthrough Mechanism
+
+### Source
+Current manuscript / Section 3.3, MVC interpretation paragraph.
+
+### Case Type
+PE-END.
+
+### Paragraph Function
+conclude.
+
+### Target Skill Problem
+weak ending; metric trend stops at values; mini-implication missing.
+
+### Tags
+- paragraph_function: conclude
+- problem_type: weak_ending
+- section: Results and Discussion
+- stage: Stage 3 / Stage 4
+- shared_with: mechanism_results / narrative_echo
+
+### Previous Context
+The subsection first shows that porosity-permeability curves capture a macroscopic breakthrough hierarchy, then introduces MVC to quantify matrix-vug coupling from the T2 signal.
+
+### Target Paragraph
+The paragraph compares the timing and strength of MVC peaks across regimes. Channeling reaches its MVC maximum at lower porosity, reflecting early establishment of a primary conduit and strong exchange. Wormholing peaks later because competing paths must coalesce before global coupling forms. Face dissolution remains subdued and eventually loses apparent exchange as matrix signal decays. The ending turns these trends into the main mechanism: early establishment and synchronous enlargement of a solitary dominant channel control breakthrough efficiency, and MVC distinguishes channeling from wormholing even when their geometries appear similar.
+
+### Next Context
+The Implications section generalizes the result: transient NMR T2 evolution and MVC provide diagnostic signatures for dissolution-driven pore coupling and permeability breakthrough.
+
+### Why This Paragraph Works
+The paragraph does not end by restating MVC values. It converts metric timing into a mechanism conclusion and a diagnostic payoff for the whole paper.
+
+### Sentence-Level Function Map
+S1: topic: MVC peak timing indicates maximum matrix-vug pore coupling.
+S2: channeling evidence: early MVC maximum reflects early conduit establishment.
+S3: wormholing contrast: delayed MVC peak reflects competition and coalescence.
+S4: face-dissolution contrast: subdued MVC reflects weak exchange and near-complete dissolution need.
+S5: mini-implication: early synchronous conduit enlargement controls breakthrough efficiency.
+S6: paper-level payoff: MVC distinguishes geometrically similar regimes by coupling sequence and breakthrough timing.
+
+### Transferable Rule
+When a metric is introduced to resolve a mechanism contrast, the paragraph should end by naming the contrast it resolves, not merely by reporting the metric trend.
+
+### AI Instruction
+If a draft's metric paragraph ends with values, add a final sentence that explains what those values reveal about the central mechanism or diagnostic distinction.

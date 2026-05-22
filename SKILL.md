@@ -77,7 +77,7 @@ Sub-skill designs:
 - `references/mechanism_results.md`: results as physical mechanism progression.
 - `references/cases_mechanism_centered_results.md`: reference-paper and manuscript examples for observation-to-mechanism, structure-to-signal, metric validation, regime comparison, breakthrough mechanism, and mini-synthesis Results writing.
 - `references/paragraph_engineering.md`: topic sentence, evidence order, mini-implication.
-- `references/cases_paragraph_engineering.md`: reference-paper examples for PE-TOPIC, PE-ORDER, PE-MECH, PE-ECHO, and PE-END paragraph repair cases.
+- `references/cases_paragraph_engineering.md`: reference-paper and manuscript examples for PE-TOPIC, PE-ORDER, PE-MECH, PE-ECHO, PE-END, and PE-COMPRESS paragraph repair cases.
 - `references/sentence_hierarchy.md`: sentence function, transitions, claim strength, information load.
 - `references/skill_hierarchy_map.md`: how the sub-skills relate.
 

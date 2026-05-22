@@ -195,7 +195,7 @@ Expected output:
 Classify as `PE-TOPIC` or `PE-ECHO`, cite a relevant PE case, and rewrite the topic sentence so tortuosity has a validation function.
 
 Relevant case IDs:
-PE-REF-2026-001; PE-REF-2025-002.
+PE-SELF-001; PE-REF-2026-001; PE-REF-2025-002.
 
 Test PE-002: Curve description before mechanism
 
@@ -212,6 +212,22 @@ Section 3.1 ends with T2 peak separation and Section 3.2 starts with T2-store-T2
 
 Expected output:
 Classify as `PE-ECHO`, cite `PE-REF-2026-003`, and add a backward link explaining what the second analysis resolves.
+
+Test PE-004: Correct but low-function details overload the paragraph
+
+Input:
+A tortuosity paragraph includes the global trend, segment-wise local maxima, late-stage deceleration, breakthrough values, and supporting literature in one block.
+
+Expected output:
+Classify as `PE-COMPRESS`, cite `PE-SELF-001`, keep only details that support hydraulic validation of T2 evolution, and move side-detail trajectories to SI or a support paragraph.
+
+Test PE-005: Metric trend stops without mechanism payoff
+
+Input:
+An MVC paragraph reports channeling, wormholing, and face-dissolution MVC peak values but ends without explaining what the timing difference means for breakthrough efficiency.
+
+Expected output:
+Classify as `PE-END`, cite `PE-SELF-003`, and add a mini-implication that converts MVC timing into a channeling-versus-wormholing mechanism distinction.
 
 ## Test Record Template
 
