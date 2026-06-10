@@ -10,14 +10,14 @@ Use `references/cases_story_architect.md` for concrete examples from high-qualit
 
 - Title, key points, abstract, introduction, or whole manuscript.
 - Figure sequence, figure captions, and main results.
-- Optional target journal constraints, usually GRL.
+- Target journal profile or constraints, if known.
 
 ## Output
 
 - One-sentence Core Story.
 - Central Scientific Question.
 - Main Character and Supporting Actors.
-- Potential Distractions that should be downgraded or moved to SI.
+- Potential Distractions that should be downgraded, moved to SI, or retained in the main text depending on the target journal profile.
 - Section-Level Storyline table.
 - Figure Sequence Logic table.
 - Transferable Rule for similar manuscripts.
@@ -31,7 +31,7 @@ Use `references/cases_story_architect.md` for concrete examples from high-qualit
 - The manuscript contains many results but no clear central claim.
 - Figures, methods, and metrics feel like parallel work packages.
 - Introduction, Results, and Discussion appear to emphasize different things.
-- The user asks whether the manuscript is suitable for GRL.
+- The user asks whether the manuscript is suitable for GRL, JGR, WRR, JGR: Solid Earth, or another AGU journal.
 - The central claim cannot be stated in one mechanism-centered sentence.
 - The manuscript reads like a list of work done rather than a coherent scientific argument.
 
@@ -63,9 +63,9 @@ Introduction defines the problem; Methods justify how the problem can be answere
 
 A strong figure sequence should move from framework or concept, to core observation, to mechanism, quantification, or implication. If figures only list outputs, the paper likely lacks story architecture.
 
-### Rule 6: Protect GRL concision
+### Rule 6: Calibrate detail to the target journal
 
-Move technical details to SI when they support credibility but do not advance the main story. The main text should tell the story; SI should carry reproducibility, parameters, validation details, and secondary checks.
+For GRL, move technical details to SI when they support credibility but do not advance the main story. For JGR, WRR, JGR: Solid Earth, and full-length AGU Research Articles, keep method detail, validation, uncertainty, and mechanism discussion in the main text when they are needed for reproducibility, reviewer trust, or the central claim.
 
 ## Do Not Confuse
 
@@ -98,7 +98,7 @@ Look for:
 - Methods, metrics, and validation outputs appear as separate products rather than one evidence chain.
 - Figures are ordered by workflow convenience rather than argument function.
 - Final claim is broader than the evidence or target journal allows.
-- SI-worthy technical details compete with the main-text story.
+- Technical details compete with the main-text story, or necessary full-length article evidence has been over-compressed into SI.
 
 ## Failure Signals
 
@@ -119,7 +119,7 @@ The manuscript likely needs Story Architect if:
 4. Convert methods and metrics into evidence roles: reveal, validate, quantify, or explain.
 5. Rewrite the central storyline in one sentence.
 6. Align title, abstract, section openings, and figure sequence around that sentence.
-7. Downgrade technical details that support credibility but do not advance the story.
+7. Downgrade or retain technical details according to `journal_profile.md` and the target journal's need for reproducibility, validation, uncertainty, and discussion depth.
 
 Preferred storyline forms:
 
@@ -144,6 +144,10 @@ We show/test how [measurable signal] tracks [physical process] by revealing [mec
 
 ## Potential Distractions
 
+## Target Journal Fit
+
+## Concision Strategy
+
 ## Section-Level Storyline
 
 ## Figure Sequence Logic
@@ -167,6 +171,7 @@ We show/test how [measurable signal] tracks [physical process] by revealing [mec
 - Treating a new metric as the story rather than evidence for the story.
 - Polishing sentences while the main character is still unclear.
 - Letting SI-level method details dominate a GRL main text.
+- Over-compressing methods, validation, uncertainty, or mechanism discussion in a full-length AGU Research Article.
 
 ## Reference Cases
 

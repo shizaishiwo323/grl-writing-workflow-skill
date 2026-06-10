@@ -1,4 +1,4 @@
-# GRL Writing Stage Model
+# GRL / AGU Writing Stage Model
 
 Use this file to route manuscript work before editing.
 
@@ -56,16 +56,16 @@ Use: `paragraph_engineering.md`, `sentence_hierarchy.md`.
 
 Forbidden: elegant wording that hides mechanism logic or sacrifices clarity.
 
-Output: clearer topic sentences, transitions, shorter sentence hierarchy, explicit reader guidance, concise GRL tone.
+Output: clearer topic sentences, transitions, shorter sentence hierarchy, explicit reader guidance, and target-journal-calibrated tone.
 
 ## Stage 5: Reviewer-Oriented Refinement
 
 Symptoms: the manuscript is near submission and needs risk checking.
 
-Core task: inspect the paper through a GRL reviewer lens.
+Core task: inspect the paper through the target journal reviewer lens.
 
 Use: `principles.md`, `tag_system.md`, `global_prompt_checklist.md`, `skill_specific_checklists.md`.
 
 Forbidden: assuming language polish is enough for submission.
 
-Output: reviewer attack-point list, novelty clarity check, overclaim/underclaim check, mechanism gap check, method credibility check, GRL fit map.
+Output: reviewer attack-point list, novelty clarity check, overclaim/underclaim check, mechanism gap check, method credibility check, target-journal fit map.

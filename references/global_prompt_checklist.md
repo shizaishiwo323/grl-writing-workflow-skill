@@ -22,7 +22,7 @@ Use this checklist for every Phase 4 prompt test.
 - Does the output make the section easier to follow?
 - Does it provide topic sentences or reader navigation where needed?
 - Does it reduce unnecessary detail?
-- Does it preserve concise GRL-style movement?
+- Does it preserve target-journal-appropriate movement: concise for GRL, sufficiently developed for full-length AGU Research Articles?
 
 ## Narrative Echo And Payoff
 

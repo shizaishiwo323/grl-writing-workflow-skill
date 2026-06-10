@@ -7,12 +7,13 @@ Diagnose the manuscript's current editing stage before choosing any writing skil
 ## Input
 
 - Manuscript section, full draft, or user request.
-- Optional target journal, usually GRL or a similar short high-impact geoscience journal.
+- Required or inferred target journal profile: GRL, JGR, WRR, JGR: Solid Earth, generic AGU Research Article, or unspecified.
 - Optional diagnosis from the user, such as "帮我润色" or "帮我看逻辑".
 
 ## Output
 
 - Manuscript stage diagnosis: `Storyline`, `OCAR`, `Methods Evidence`, `Mechanism Results`, `Paragraph`, or `Sentence`.
+- Target journal profile and concision strategy when the target affects editing choices.
 - Primary skill to call next.
 - Secondary skill if needed.
 - One-sentence reason for routing.
@@ -44,14 +45,15 @@ Diagnose the manuscript's current editing stage before choosing any writing skil
 
 Use this order:
 
-1. If the paper cannot be summarized in one mechanism-centered sentence, route to `story_architect`.
-2. If the paper has a central claim but Opening, Challenge, Action, or Resolution is weak, route to `ocar_funnel`.
-3. If Introduction promises are not paid off in Results/Discussion, or major Results concepts appear without setup, route to `narrative_echo_and_payoff`.
-4. If Methods do not show input-output coupling, parameter controls, validation, or processing consistency, route to `methods_evidence_chain`.
-5. If Results describe figures but do not explain mechanisms, route to `mechanism_results`.
-6. If Results subsections read as parallel blocks without forward pointers, backward links, delayed payoffs, or thread summaries, route to `narrative_echo_and_payoff`, usually with `mechanism_results` or `paragraph_engineering`.
-7. If paragraph functions are unclear, route to `paragraph_engineering`.
-8. If logic is stable but wording is clumsy, route to `sentence_hierarchy`.
+1. Identify the target journal profile using `journal_profile.md` before enforcing concision or SI-moving rules.
+2. If the paper cannot be summarized in one mechanism-centered sentence, route to `story_architect`.
+3. If the paper has a central claim but Opening, Challenge, Action, or Resolution is weak, route to `ocar_funnel`.
+4. If Introduction promises are not paid off in Results/Discussion, or major Results concepts appear without setup, route to `narrative_echo_and_payoff`.
+5. If Methods do not show input-output coupling, parameter controls, validation, or processing consistency, route to `methods_evidence_chain`.
+6. If Results describe figures but do not explain mechanisms, route to `mechanism_results`.
+7. If Results subsections read as parallel blocks without forward pointers, backward links, delayed payoffs, or thread summaries, route to `narrative_echo_and_payoff`, usually with `mechanism_results` or `paragraph_engineering`.
+8. If paragraph functions are unclear, route to `paragraph_engineering`.
+9. If logic is stable but wording is clumsy, route to `sentence_hierarchy`.
 
 ## Trigger: Scientific Story Architect
 
@@ -61,7 +63,7 @@ Use `references/story_architect.md` before all structure, mechanism, paragraph, 
 - the manuscript contains many results but no clear central claim;
 - figures and metrics feel like parallel work packages;
 - Introduction, Results, and Discussion appear to emphasize different things;
-- the user asks whether the manuscript is suitable for GRL.
+- the user asks whether the manuscript is suitable for GRL, JGR, WRR, JGR: Solid Earth, or another AGU journal.
 
 Routing logic:
 
@@ -97,6 +99,8 @@ Routing logic:
 Do not rewrite. Produce routing only:
 
 ```text
+Target journal profile:
+Concision strategy:
 Stage:
 Primary skill:
 Secondary skill:

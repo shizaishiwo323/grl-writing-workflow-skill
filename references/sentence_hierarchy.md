@@ -9,7 +9,7 @@ Story Architect Gate: Before applying this skill, confirm that `story_architect`
 ## Input
 
 - Sentence, paragraph, or marked-up draft.
-- Optional desired tone: GRL concise, mechanism-forward, or claim-calibrated.
+- Optional desired tone: GRL concise, full-length AGU, mechanism-forward, or claim-calibrated.
 
 ## Output
 

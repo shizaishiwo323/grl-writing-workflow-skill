@@ -1,9 +1,9 @@
 ---
 name: grl-writing-workflow
-description: Use when the user wants Codex to diagnose, plan, revise, or build prompts for GRL-style scientific manuscripts, especially mechanism-driven geoscience, reactive transport, porous media, hydrogeophysics, or NMR papers. Applies teacher-derived OCAR/funnel structure, storyline alignment, narrative echo and payoff, methods evidence-chain, mechanism-centered results, paragraph engineering, sentence hierarchy, revision-case mining, and prompt-building rules. Trigger on requests about 前后呼应, 铺垫与兑现, Introduction-Results alignment, Results subsection transitions, or mechanism-driven GRL writing. Always diagnose manuscript stage before polishing sentences.
+description: Use when the user wants Codex to diagnose, plan, revise, or build prompts for AGU-style scientific manuscripts, with journal-specific adaptation for GRL, JGR, WRR, JGR: Solid Earth, and related geoscience journals. Especially useful for mechanism-driven geoscience, reactive transport, porous media, hydrogeophysics, or NMR papers. Applies teacher-derived OCAR/funnel structure, storyline alignment, narrative echo and payoff, methods evidence-chain, mechanism-centered results, paragraph engineering, sentence hierarchy, revision-case mining, and prompt-building rules. Trigger on requests about 前后呼应, 铺垫与兑现, Introduction-Results alignment, Results subsection transitions, or mechanism-driven AGU writing. Always diagnose manuscript stage and target journal profile before polishing sentences.
 ---
 
-# GRL Writing Workflow
+# GRL / AGU Writing Workflow
 
 ## Core Rule
 
@@ -19,18 +19,22 @@ Do not perform sentence polishing when the central story, section function, or m
 
 This skill also checks narrative echo and payoff: whether Introduction promises are paid off in Results/Discussion, and whether Results subsections form a connected mechanism chain through forward pointers, backward links, delayed payoffs, and thread summaries.
 
+Before applying concision, SI-moving, or reviewer-fit rules, identify the target journal profile. For GRL, prioritize concise main-text storytelling around one high-impact mechanism-centered claim. For JGR, WRR, JGR: Solid Earth, and other full-length AGU Research Articles, preserve sufficient methodological detail, literature context, validation, uncertainty analysis, and mechanism discussion in the main text.
+
 ## First Move
 
 Unless the user explicitly asks for one narrow operation, begin with `references/workflow_router.md` and, when prompt wording is needed, `references/workflow_router_prompt.md`.
 
 Diagnose:
 
+- Target journal profile: GRL, JGR, WRR, JGR: Solid Earth, generic AGU Research Article, or unspecified.
 - Current manuscript stage.
 - Core contradiction: storyline, section structure, mechanism chain, paragraph flow, sentence hierarchy, or reviewer risk.
 - Which sub-skill files to use.
 - Which edits are currently forbidden.
 - One concrete goal for this round.
 
+Use `references/journal_profile.md` before enforcing concision or SI-moving rules.
 Use `references/stage_model.md` for the five-stage workflow.
 
 ## Stage Routing
@@ -48,7 +52,7 @@ Stage 4 Reader Experience Optimization:
 Use `references/paragraph_engineering.md`, `references/cases_paragraph_engineering.md`, and `references/sentence_hierarchy.md`. Improve topic sentences, transitions, information load, reader guidance, and claim calibration after the structure is stable.
 
 Stage 5 Reviewer-Oriented Refinement:
-Use `references/principles.md`, `references/tag_system.md`, `references/narrative_echo_and_payoff.md`, and `references/global_prompt_checklist.md`. Check novelty clarity, GRL fit, overclaim, evidence gaps, method reproducibility, broad implication, Introduction-Results payoff, and likely reviewer attack points.
+Use `references/principles.md`, `references/tag_system.md`, `references/narrative_echo_and_payoff.md`, `references/journal_profile.md`, and `references/global_prompt_checklist.md`. Check novelty clarity, target-journal fit, overclaim, evidence gaps, method reproducibility, broad implication, Introduction-Results payoff, and likely reviewer attack points.
 
 ## Reference Loading
 
@@ -57,6 +61,7 @@ Load only the files needed for the current task.
 Principles and evidence:
 
 - `references/stage_model.md`: five-stage manuscript workflow and forbidden actions.
+- `references/journal_profile.md`: AGU journal-specific adaptation rules for GRL, JGR, WRR, JGR: Solid Earth, and generic full-length Research Articles.
 - `references/principles.md`: teacher-derived principle library, evidence strength, and transferable rules.
 - `references/tag_frequency.md`: which principles are most frequent in the modification database.
 - `references/tag_system.md`: modification label system.
@@ -102,6 +107,7 @@ For diagnosis tasks, output:
 
 ```text
 Current stage:
+Target journal profile:
 Core contradiction:
 Recommended sub-skills:
 Currently forbidden:
@@ -124,7 +130,8 @@ When using revision evidence, cite the relevant Case ID or tag from the Markdown
 
 - Prefer mechanism-first writing over workload listing.
 - Prefer reader guidance over dense technical accumulation.
-- Prefer concise GRL-style claims over broad unsupported implications.
+- Prefer target-journal-calibrated claims over broad unsupported implications.
+- Do not turn full-length AGU Research Articles into GRL-style compressed short papers unless the user explicitly targets GRL.
 - Treat methods as proof logic: why this workflow can answer the research question.
 - Treat figures as evidence in a story, not as a sequence to describe one by one.
 - If the user asks for pure polishing but the text has a higher-level failure, say so briefly and route upward before editing.
