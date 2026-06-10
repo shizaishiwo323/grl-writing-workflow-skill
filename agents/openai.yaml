@@ -1,4 +1,4 @@
 interface:
-  display_name: "GRL Writing Workflow"
-  short_description: "GRL mechanism-writing workflow"
-  default_prompt: "Diagnose the manuscript stage first, then apply the matching GRL writing workflow, prompt template, and teacher-derived revision principles."
+  display_name: "AGU Writing Workflow"
+  short_description: "AGU manuscript writing workflow for GRL, JGR, WRR, and JGR: Solid Earth"
+  default_prompt: "Diagnose the manuscript stage and target journal profile first, then apply the matching AGU writing workflow, prompt template, and teacher-derived revision principles."

@@ -1,9 +1,9 @@
 ---
-name: grl-writing-workflow
+name: agu-writing-workflow
 description: Use when the user wants Codex to diagnose, plan, revise, or build prompts for AGU-style scientific manuscripts, with journal-specific adaptation for GRL, JGR, WRR, JGR: Solid Earth, and related geoscience journals. Especially useful for mechanism-driven geoscience, reactive transport, porous media, hydrogeophysics, or NMR papers. Applies teacher-derived OCAR/funnel structure, storyline alignment, narrative echo and payoff, methods evidence-chain, mechanism-centered results, paragraph engineering, sentence hierarchy, revision-case mining, and prompt-building rules. Trigger on requests about 前后呼应, 铺垫与兑现, Introduction-Results alignment, Results subsection transitions, or mechanism-driven AGU writing. Always diagnose manuscript stage and target journal profile before polishing sentences.
 ---
 
-# GRL / AGU Writing Workflow
+# AGU Writing Workflow
 
 ## Core Rule
 
